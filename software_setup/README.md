@@ -8,7 +8,7 @@
 
 - Download and run the installer script
 ```commandline
-curl "https://github.com/zdouc-lab/onboarding/blob/main/software_setup/setup_student.sh" -o setup_student.sh
+wget https://raw.githubusercontent.com/zdouc-lab/onboarding/refs/heads/main/software_setup/setup_student.sh
 sudo ./setup_student.sh
 ```
 
