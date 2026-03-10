@@ -19,38 +19,42 @@ fi
 
 echo "Started package installation"
 
+echo "##########################################"
 echo "Adding repositories"
 add-apt-repository -y universe
 add-apt-repository -y ppa:inkscape.dev/stable
 add-apt-repository -y ppa:safeeyes-team/safeeyes
 
+echo "##########################################"
 echo "Installing the basics"
 apt-get update && \
-    apt-get install -y --no-install-recommends \
+    apt-get install -y \
     libfuse2 \
     curl \
     geany \
     apt-transport-https
 
+echo "##########################################"
 echo "Installing Element"
 wget -O /usr/share/keyrings/element-io-archive-keyring.gpg https://packages.element.io/debian/element-io-archive-keyring.gpg 
 echo "deb [signed-by=/usr/share/keyrings/element-io-archive-keyring.gpg] https://packages.element.io/debian/ default main" | tee /etc/apt/sources.list.d/element-io.list 
 
 
+echo "##########################################"
 echo "Installing programs via apt"
 apt-get update && \
-    apt-get install -y --no-install-recommends \
+    apt-get install -y \
     chromium-browser \
     flatpak \
     inkscape \
     safeeyes \
-    element-desktop 
-rm -rf /var/lib/apt/lists/*
+    element-desktop
 
-
+echo "##########################################"
 echo "Installing Uv (Python package manager)"
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
+echo "##########################################"
 echo "Installing JetBrains Toolbox (Pycharm)"
 mkdir -p ./jetbrains
 curl -L https://download.jetbrains.com/toolbox/"$JETBRAINS" -o /tmp/jetbrains.tar.gz
@@ -59,19 +63,22 @@ sh ./jetbrains/bin/jetbrains-toolbox
 chown -R student:student ./jetbrains
 chmod 700 ./jetbrains
 
-
+echo "##########################################"
 echo "Installing Obsidian"
 flatpak install -y flathub md.obsidian.Obsidian
 
+echo "##########################################"
 echo "Installing MZmine4"
 curl -L "$MZMINE" -o /tmp/mzmine.deb
 apt install -y /tmp/mzmine.deb
 
+echo "##########################################"
 echo "Installing Cytoscape"
 apt install "$JAVA"
 curl -L "$CYTOSCAPE" -o /tmp/cytoscape.deb
 apt install -y /tmp/cytoscape.deb
 
+echo "##########################################"
 echo "Setting up .ssh directory"
 mkdir -p "$SSH_CONFIG"
 chown student:student "$SSH_CONFIG"
@@ -87,6 +94,7 @@ Host github.com
 	IdentityFile "$SSH_CONFIG"id_rsa
 EOF
 
+echo "##########################################"
 echo "Setting up .bashrc file"
 cat <<EOF >> "$BASHRC"
 # enable an alias for python -> python3 (who is using python2 anyway nowadays)
