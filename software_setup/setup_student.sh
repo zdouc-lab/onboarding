@@ -20,9 +20,9 @@ fi
 echo "Started package installation"
 
 echo "Adding repositories"
-add-apt-repository universe
-add-apt-repository ppa:inkscape.dev/stable
-add-apt-repository ppa:safeeyes-team/safeeyes
+add-apt-repository -y universe
+add-apt-repository -y ppa:inkscape.dev/stable
+add-apt-repository -y ppa:safeeyes-team/safeeyes
 
 echo "Installing the basics"
 apt-get update && \
@@ -30,9 +30,7 @@ apt-get update && \
     libfuse2 \
     curl \
     geany \
-    apt-transport-https \
-rm -rf /var/lib/apt/lists/*
-
+    apt-transport-https
 
 echo "Installing Element"
 wget -O /usr/share/keyrings/element-io-archive-keyring.gpg https://packages.element.io/debian/element-io-archive-keyring.gpg 
