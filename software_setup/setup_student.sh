@@ -66,7 +66,7 @@ chmod 700 ./jetbrains
 echo "##########################################"
 echo "Installing Obsidian"
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub md.obsidian.Obsidian
+flatpak install -y flathub md.obsidian.Obsidian
 
 echo "##########################################"
 echo "Installing MZmine4"
