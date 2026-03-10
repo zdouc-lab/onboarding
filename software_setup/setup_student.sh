@@ -8,7 +8,7 @@ BASHRC="/home/student/.bashrc"
 
 # Vars for direct downloads
 MZMINE="https://github.com/mzmine/mzmine/releases/download/v4.9.0/mzmine_4.9.0_amd64.deb"
-JETBRAINS="jetbrains-toolbox-3.3.1.75249.tar.gz" 
+JETBRAINS="jetbrains-toolbox-3.3.1.75249"
 JAVA="openjdk-21-jdk"
 CYTOSCAPE="https://github.com/cytoscape/cytoscape/releases/download/3.10.4/Cytoscape_3_10_4_unix.sh"
 
@@ -57,9 +57,9 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 echo "##########################################"
 echo "Installing JetBrains Toolbox (Pycharm)"
 mkdir -p ./jetbrains
-curl -L https://download.jetbrains.com/toolbox/"$JETBRAINS" -o /tmp/jetbrains.tar.gz
+curl -L https://download.jetbrains.com/toolbox/"$JETBRAINS".tar.gz -o /tmp/jetbrains.tar.gz
 tar -xvf /tmp/jetbrains.tar.gz -C ./jetbrains
-sh ./jetbrains/bin/jetbrains-toolbox
+sh ./jetbrains/"$JETBRAINS"/bin/jetbrains-toolbox
 chown -R student:student ./jetbrains
 chmod 700 ./jetbrains
 
