@@ -59,13 +59,14 @@ echo "Installing JetBrains Toolbox (Pycharm)"
 mkdir -p ./jetbrains
 curl -L https://download.jetbrains.com/toolbox/"$JETBRAINS".tar.gz -o /tmp/jetbrains.tar.gz
 tar -xvf /tmp/jetbrains.tar.gz -C ./jetbrains
-sh ./jetbrains/"$JETBRAINS"/bin/jetbrains-toolbox
+./jetbrains/"$JETBRAINS"/bin/jetbrains-toolbox
 chown -R student:student ./jetbrains
 chmod 700 ./jetbrains
 
 echo "##########################################"
 echo "Installing Obsidian"
-flatpak install -y flathub md.obsidian.Obsidian
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub md.obsidian.Obsidian
 
 echo "##########################################"
 echo "Installing MZmine4"
