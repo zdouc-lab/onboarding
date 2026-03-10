@@ -9,6 +9,7 @@
 - Download and run the installer script
 ```commandline
 wget https://raw.githubusercontent.com/zdouc-lab/onboarding/refs/heads/main/software_setup/setup_student.sh
+chmod +x ./setup_student.sh
 sudo ./setup_student.sh
 ```
 

@@ -20,9 +20,9 @@ fi
 echo "Started package installation"
 
 echo "Adding repositories"
-add-apt-repository universe \
-    ppa:inkscape.dev/stable \
-    ppa:safeeyes-team/safeeyes
+add-apt-repository universe
+add-apt-repository ppa:inkscape.dev/stable
+add-apt-repository ppa:safeeyes-team/safeeyes
 
 echo "Installing the basics"
 apt-get update && \
