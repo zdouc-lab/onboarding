@@ -25,11 +25,12 @@ Members of the Zdouc Lab pledge to:
 To reach these goals, members of the Zdouc lab:
 
 - Interact kindly with colleagues and external collaborators and stand against any form of discrimination, as laid out in the [Zdouc Lab Code of Conduct](https://github.com/zdouc-lab/.github/blob/main/CODE_OF_CONDUCT.md).
-- Follow the [University of Vienna's Code of Conduct](https://www.univie.ac.at/en/about-us/legal-information-and-notices/code-of-conduct) in general and specifically regarding [Good Academic Practice](https://www.univie.ac.at/en/about-us/good-academic-practice)
+- Follow the [University of Vienna's Code of Conduct](https://www.univie.ac.at/en/about-us/legal-information-and-notices/code-of-conduct) in general and specifically regarding [Good Academic Practice](https://www.univie.ac.at/en/about-us/good-academic-practice).
 
 ## Expectations
 
-Clarifying expectations is key in any onboarding process. Conflicts usually arise from conflicting expectations. 
+Clarifying expectations is key in any onboarding process. 
+Conflicts usually arise from conflicting expectations and differing needs. 
 Therefore, we have prepared a number of high-level guidelines that should help to prevent such conflicts.
 
 Nonetheless, it is important to understand that it is normal that conflicts sometimes arise when persons with different needs interact with each other. 
@@ -44,7 +45,7 @@ Being a member of the Zdouc Lab comes with benefits and responsibilities. You ac
 - Participate in the monthly lab meetings.
 - Adhere to the flex-desk working system and follow our clean desk policy.
 - Take responsibility for any infrastructure made available to you.
-- See problems as challenges that allow you to grow and try to solve them independently, but reach out for help after a reasonable effort has not led to success.
+- See problems as challenges that allow you to grow. You will try to solve issues independently, but reach out for help after a reasonable effort has not led to success.
 - Be aware of your project plan, adhere to deadlines for deliverables, specifically when they affect external opportunities (e.g. collaborations, conferences).
 - Be mindful that interaction with external opportunities reflect on the entire lab, and make your best effort in furthering its reputation.
 
@@ -55,7 +56,7 @@ Mitja's goal is to facilitate your success as well as that of your project. Spec
 - Act as a sounding board for ideas, help with project planning, the design of experiment, and testing of hypothesis, and advise on risks. 
 - Help to plan training and support you in devising a career plan that will take you where you want to go.
 - Make infrastructure and resources available to support you in reaching your deliverables (e.g. educational goals, thesis).
-- Support you in your writing (e.g. by giving feedback on drafts),
+- Support you in your writing (e.g. by giving feedback on drafts).
 
 However, Mitja **will not**:
 
@@ -73,6 +74,30 @@ Please be aware that Mitja has a "duty of care" ("Fürsorgepflicht"), meaning th
 For a confident counseling, please contact the office of the [Beratungsstelle](https://gleichstellung.univie.ac.at/praevention-beratung/beratungsstelle) before you confer with Mitja.
 
 If Mitja is the cause of your concern, [Prof. Iris Stappen](https://ufind.univie.ac.at/de/person.html?id=7003) as member of the [AKGleich](https://gleichbehandlung.univie.ac.at/) has agreed to mediate as a neutral third person.
+
+### AI Policy
+
+Over the last years, generative AI (genAI) has become a reality in an educational settings.
+Chatbots (e.g. ChatGPT) and agents/assistants (e.g. Claude Code) promise to "automate" tasks such as programming and writing to "save" time.
+However, the use of genAI takes away opportunities to think and reflect, develop research techniques, to critically synthesize knowledge, and formulate reasoning.
+GenAI is generally considered harmful in reaching the learning outcomes during writing of a thesis (see also [this position](https://zenodo.org/records/17065099)).
+
+The Zdouc Lab **discourages** the use of GenAI in an educational setting but acknowledges its general permeation in academia. 
+Therefore, the use of genAI is permitted under certain circumstances:
+
+- The use of genAI is disclosed transparently to avoid issues of plagiarism (presenting another’s ideas and statements as your own, without indicating their provenance; see also [Good Academic Practice](https://www.univie.ac.at/en/about-us/good-academic-practice)).
+- If applicable, a section is included that contains a brief reflection on the motivation to use genAI and how it can support the learning outcomes.
+
+There may be certain projects in which the use of genAI is subjected to stronger restrictions. 
+These restrictions will be discussed in the relevant onboarding documentation.
+
+**Are you allowed to use GenAI in writing your thesis?**
+
+The Zdouc lab believes in short theses that concisely describe **who** has done **what**, **when**, **why**, **how**, and **where**.
+Whenever you feel the need to use genAI, ask yourself: "Is this statement really necessary?" and "Would a simple Google search also do the job?".
+Even if your English is not perfect, it is much preferable over AI-generated text.
+
+Please reach out to Mitja if you feel any need in discussing the AI Policy.
 
 ## Meetings
 
