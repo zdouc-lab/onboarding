@@ -18,6 +18,6 @@ sudo ./setup_student.sh
 
 ## Configuration
 
-- [ ] Create a GitHub account and try to clone [modern_python](https://github.com/zdouc-group/modern_python) to your machine
+- [ ] Create a GitHub account and try to clone [modern_python](https://github.com/zdouc-group/modern_python) to your machine, using Pycharm
 - [ ] Setup Obsidian lab notebook
 - [ ] Setup Element/Matrix.org
