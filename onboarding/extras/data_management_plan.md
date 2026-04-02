@@ -1,15 +1,12 @@
 # Data Management Plan Template
-<br>
-<br>
 #### **Submitted on:** _date_
 #### **Principal researcher:** _student name_
 #### **Supervisor:** _supervisor name_
-<br>
-<br>
+
 The following data management plan is part of the project entitled
-<br>
+
 _project name_
-<br>
+
 ## Description
 
 <one-sentence project description>
