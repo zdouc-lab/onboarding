@@ -36,6 +36,13 @@ Therefore, we have prepared a number of high-level guidelines that should help t
 Nonetheless, it is important to understand that it is normal that conflicts sometimes arise when persons with different needs interact with each other. 
 However, it is essential that we resolve these conflicts in a respectful and graceful manner.
 
+### General expectations
+
+The Zdouc Lab has a strong focus on international collaboration. To foster this spirit, we have implemented these guidelines:
+
+- The working language in the Zdouc Lab is English.
+- When conferring with colleagues, the language of choice should be English, to ensure that everyone feels included.
+
 ### Your role
 
 Being a member of the Zdouc Lab comes with benefits and responsibilities. You acknowledge that you will:
