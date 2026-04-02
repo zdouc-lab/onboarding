@@ -167,13 +167,32 @@ The Zdouc lab primarily communicates internally via the [Element](https://app.el
 You are expected to register an account and connect to the `Zdouc-Lab` space. 
 Please ask Mitja for an invitation link.
 
-### Computer source code
+### Research data management
 
-The Zdouc lab keeps source code in its [GitHub Organization](https://github.com/zdouc-lab).
-If your project entails computational work, you are expected to create a GitHub account and request membership with the [Zdouc Lab GitHub Organization](https://github.com/zdouc-lab).
-All code repositories must be owned by the Zdouc Lab GitHub Organization to guarantee long-term maintenance.
-By default, repositories should be public, and private repositories must be discussed with Mitja first.
-Please adhere to [good coding practices](https://en.wikipedia.org/wiki/Coding_best_practices), e.g. by first taking a look at our [modern python](https://github.com/zdouc-lab/modern_python) repository.
+The Zdouc Lab regularly generates both unstructured (raw) and structured data, as well as software source code (from here, data).
+Since this data is financed by public funds, it is our responsibility to ensure it is appropriately managed. 
+For this, the Zdouc Lab has implemented the following guidelines (special rules apply for any [Sensitive Data](https://commission.europa.eu/law/law-topic/data-protection/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en)):
+
+- **Data Management Plan (DMP)**: For each project, it is mandatory to fill in and submit a [Data Management Plan](extras/data_management_plan.md)
+- **Data Repository**: Data and digital objects are submitted to the [Zdouc Lab Zenodo Community](https://zenodo.org/communities/zdouc-lab) 
+
+Depending on the type of data, we specify different storage options:
+
+- **Raw data**: Community-specific repository and University Archive (LiSC)
+- **Structured data**: Zenodo and University Archive (LiSC)
+- **Computer code**: [Zdouc Lab GitHub Organization](https://github.com/zdouc-lab) -> Zenodo and University Archive
+
+**What to do**:
+
+- Get a [DOI](https://de.wikipedia.org/wiki/Digital_Object_Identifier) for your data
+- Follow [FAIR](https://www.go-fair.org/fair-principles/) data principles
+
+
+**What NOT to do**:
+
+- Storing data on your computer/thumb drive/hard drive. Use [u:cloud](https://zid.univie.ac.at/en/ucloud), the [share](https://zid.univie.ac.at/en/share), or [LiSC](https://lisc.univie.ac.at/) instead.
+- Storing large artifacts (=derived data)
+
 
 ### Licensing
 
@@ -186,9 +205,13 @@ This ensures lab research is reusable and reproducible, with minimal legal barri
 
 Certain funders and/or project will need special licensing accommodations. If in doubt, feel free to discuss with Mitja.
 
-### Research data management
+### Computer source code
 
-
+The Zdouc lab keeps source code in its [GitHub Organization](https://github.com/zdouc-lab).
+If your project entails computational work, you are expected to create a GitHub account and request membership with the [Zdouc Lab GitHub Organization](https://github.com/zdouc-lab).
+All code repositories must be owned by the Zdouc Lab GitHub Organization to guarantee long-term maintenance.
+By default, repositories should be public, and private repositories must be discussed with Mitja first.
+Please adhere to [good coding practices](https://en.wikipedia.org/wiki/Coding_best_practices), e.g. by first taking a look at our [modern python](https://github.com/zdouc-lab/modern_python) repository.
 
 ### Computer infrastructure
 

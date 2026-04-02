@@ -6,11 +6,12 @@ The repository is home to the onboarding information for the [Zdouc Lab](https:/
 
 ## Repository overview
 
-| Name                                      | Description                                     |
-|-------------------------------------------|-------------------------------------------------|
-| [onboarding.md](onboarding/onboarding.md) | Step-by-step onboarding document                |
-| [software](software_setup/README.md)      | Installation instructions for student machines  |
-| [config](software_setup/README.md)        | Configuration instructions for student machines |
+| Name                                      | Description                                       |
+|-------------------------------------------|---------------------------------------------------|
+| [onboarding.md](onboarding/onboarding.md) | Step-by-step onboarding document                  |
+| [extras](onboarding/extras/)              | Additional documents and resources for onboarding |
+| [software](software_setup/README.md)      | Installation instructions for student machines    |
+| [config](software_setup/README.md)        | Configuration instructions for student machines   |
 
 ## Contributing
 
