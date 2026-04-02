@@ -6,6 +6,11 @@
 
 Besides the general expectations, there are several guidelines that specifically apply for Master Students.
 
+### Project planning
+
+TBA: describe the milestones (Project plan/expose A4, midterm meeting, final presentation, thesis)
+
+
 ### Thesis
 
 The Zdouc Lab believes in short, but well-crafted Master theses.
