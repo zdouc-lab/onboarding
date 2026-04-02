@@ -19,3 +19,7 @@ In general, these should follow the classical paper-format (Abstract, Introducti
 Usually, they are less than 25 pages, but they can be longer, especially if there are many figures.
 
 Theses should follow the regulation of the University of Vienna.
+
+Keep a lab notebook (ideally, Obsidian)
+
+Write your methods section while you are doing your experiments.
