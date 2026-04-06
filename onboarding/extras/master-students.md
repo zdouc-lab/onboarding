@@ -84,12 +84,11 @@ Most project proposal follow a common and established structure and are usually 
 Proposals try to answer **What**, **How**, **Where**, **When**, **Why**, and **Who**:
 
 1. Project title, personal information, supervisor name (the Who)
-2. [**Abstract**](https://writing.wisc.edu/handbook/assignments/writing-an-abstract-for-your-research-paper/) (the What)
-3. **Introduction** of the topic, background, and problem (the What and Why)
-4. **Objectives** (the What)
-5. **Approach** (the How)
-6. **Work plan** with Gantt chart (the When)
-7. **References** (the Where)
+2. **Introduction** of the topic, background, and problem (the What and Why)
+3. **Objectives** (the What)
+4. **Approach** (the How)
+5. **Work plan** with Gantt chart (the When)
+6. **References** (the Where)
 
 *Nota bene: don't aim for perfect prose - scientific writing is simply a skill that becomes better with practice. Just try to put some words on paper (or the word processor).*
 
@@ -115,7 +114,7 @@ The Master thesis is a concise summary of your project work, your results, and i
 The Zdouc lab believes in compact but well-crafted theses that concisely describe **who** has done **what**, **when**, **why**, **how**, and **where**.
 In general, theses should follow the classical paper-format, resulting in 25-30 pages in total (depending on formatting ect):
 
-- Abstract (150-200 words)
+- [**Abstract**](https://writing.wisc.edu/handbook/assignments/writing-an-abstract-for-your-research-paper/) (150-200 words)
 - Introduction (~800 words)
 - Results (~1000 words)
 - Discussion (~800 words)
