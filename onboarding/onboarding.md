@@ -38,14 +38,16 @@ However, it is essential that we resolve these conflicts in a respectful and gra
 
 ### General expectations
 
-The Zdouc Lab has a strong focus on international collaboration. To foster this spirit, we have implemented these guidelines:
+The Zdouc Lab has a strong focus on international collaboration. 
+To foster this spirit, we have implemented these guidelines:
 
 - The working language in the Zdouc Lab is English.
 - When conferring with colleagues, the language of choice should be English, to ensure that everyone feels included.
 
 ### Your role
 
-Being a member of the Zdouc Lab comes with benefits and responsibilities. You acknowledge that you will:
+Being a member of the Zdouc Lab comes with benefits and responsibilities. 
+You acknowledge that you will:
 
 - Be primarily responsible for the success of your research project and career development.
 - Participate fully in the team and be present on-site on at least three days per week to foster interaction. Arrangement based on special needs must be discussed with and agreed by Mitja.
@@ -90,30 +92,24 @@ Chatbots (e.g. ChatGPT) and agents/assistants (e.g. Claude Code) promise to "aut
 However, the use of genAI takes away opportunities to think and reflect, develop research techniques, to critically synthesize knowledge, and formulate reasoning.
 GenAI is generally considered harmful in reaching the learning outcomes during writing of a thesis (see also [this position](https://zenodo.org/records/17065099)).
 
-The Zdouc Lab **discourages** the use of GenAI in an educational setting but acknowledges its general permeation in academia. 
+The Zdouc Lab **discourages** the use of GenAI in an **educational** setting but acknowledges its general permeation in academia. 
 Therefore, the use of genAI is permitted under certain circumstances:
 
-- The use of genAI is disclosed transparently to avoid issues of plagiarism (presenting another’s ideas and statements as your own, without indicating their provenance; see also [Good Academic Practice](https://www.univie.ac.at/en/about-us/good-academic-practice)).
-- If applicable, a section is included that contains a brief reflection on the motivation to use genAI and how it can support the learning outcomes.
+- The use of genAI is disclosed transparently to avoid issues of plagiarism (presenting another ideas and statements as your own, without indicating their provenance; see also [Good Academic Practice](https://www.univie.ac.at/en/about-us/good-academic-practice)).
+- A section is included that contains a brief reflection on the motivation to use genAI and how it can support the learning outcomes (mostly applicable to educational settings).
 
 There may be certain projects in which the use of genAI is subjected to stronger restrictions. 
 These restrictions will be discussed in the relevant onboarding documentation.
 
-**Are you allowed to use GenAI in writing your thesis?**
+For more information on using GenAI in thesis writing, see the [Master student onboarding docs](extras/master-students.md/#thesis)
 
-The Zdouc lab believes in compact theses that concisely describe **who** has done **what**, **when**, **why**, **how**, and **where**.
-Whenever you feel the need to use genAI, ask yourself: "Is this statement really necessary?" and "Would a simple Google search also do the job?".
-Even if your English is not perfect, it is much preferable over AI-generated text.
+### Role-specific expectations and guidelines
 
-Please reach out to Mitja if you feel any need in discussing the AI Policy.
+Role-specific expectations and guidelines can be found in the following documents:
 
-### Role-specific expectations
-
-Depending on your academic progress, additional expectations apply.
-These can be found in the following documents:
-
-- [Expectations for Master Students](extras/master-students.md)
-
+- [Guidelines for Master Students](extras/master-students.md)
+- Expectations for PhD Students (TBA)
+- Expectations for Postdocs (TBA)
 
 ## Meetings
 
@@ -149,7 +145,7 @@ Regular individual meetings are scheduled depending on your expected scientific 
 - Postdocs: monthly meetings
 
 Once you join the lab, contact Mitja to set up a time.
-The meeting are expected to follow a certain format, with you preparing a short slide deck to lead the discussion:
+The meetings are expected to follow a certain format, with you preparing a short slide deck to lead the discussion (see also [this](https://ctl.univie.ac.at/fileadmin/user_upload/z_ctl_neu/Angebote_fuer_Studierende/Handouts__Leitfaeden_und_Ressourcen/Handouts_und_Leitfaeden/HO_Betreuungsgespraech_Vorbereitung_fuer_Studierende_final.pdf) and [this](https://ctl.univie.ac.at/fileadmin/user_upload/z_ctl_neu/Angebote_fuer_Studierende/Handouts__Leitfaeden_und_Ressourcen/Handouts_und_Leitfaeden/HO_Betreuungsgespraech_Dokumentation_final.pdf) handout for additional information):
 
 - A refresher slide on the topic.
 - Your progress since the last 1:1 meeting.
@@ -160,7 +156,7 @@ The meeting are expected to follow a certain format, with you preparing a short 
 ### Walk-in hours
 
 Every Thursday from 1 pm to 2 pm, Mitja reserves time for informal discussion, questions, etc.
-Students have priority, but feel free to drop by, briefly announcing your visit beforehand.
+Students asking questions about teaching have priority, but anyone of them team can feel free to drop by.
 
 ## Infrastructure
 
@@ -177,28 +173,29 @@ Please ask Mitja for an invitation link.
 ### Research data management
 
 The Zdouc Lab regularly generates both unstructured (raw) and structured data, as well as software source code (from here, data).
-Since this data is financed by public funds, it is our responsibility to ensure it is appropriately managed. 
+Since this data is financed by public funds, it is our responsibility to ensure it is appropriately managed and that it follows [FAIR](https://www.go-fair.org/fair-principles/) data principles.
 For this, the Zdouc Lab has implemented the following guidelines (special rules apply for any [Sensitive Data](https://commission.europa.eu/law/law-topic/data-protection/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en)):
 
 - **Data Management Plan (DMP)**: For each project, it is mandatory to fill in and submit a [Data Management Plan](extras/data_management_plan.md)
-- **Data Repository**: Data and digital objects are submitted to the [Zdouc Lab Zenodo Community](https://zenodo.org/communities/zdouc-lab) 
+- **Data Repository**: Data and digital objects are submitted to the [Zdouc Lab Zenodo Community](https://zenodo.org/communities/zdouc-lab), where they get a [DOI](https://de.wikipedia.org/wiki/Digital_Object_Identifier).
 
-Depending on the type of data, we specify different storage options:
+Depending on the type of data, we specify different permanent storage options:
 
-- **Raw data**: Community-specific repository and University Archive (LiSC)
-- **Structured data**: Zenodo and University Archive (LiSC)
-- **Computer code**: [Zdouc Lab GitHub Organization](https://github.com/zdouc-lab) -> Zenodo and University Archive
+- **Raw data**: Community-specific repository and University (LiSC Archive)
+- **Structured data**: Zenodo and University (LiSC Archive)
+- **Computer code**: [Zdouc Lab GitHub Organization](https://github.com/zdouc-lab) -> [Zdouc Lab Zenodo Community](https://zenodo.org/communities/zdouc-lab)
 
-**What to do**:
+Newly generated data usually cannot be properly archived right away. 
+Nonetheless, there are several options that can be considered to **temporarily** store such data:
 
-- Get a [DOI](https://de.wikipedia.org/wiki/Digital_Object_Identifier) for your data
-- Follow [FAIR](https://www.go-fair.org/fair-principles/) data principles
-
+- [u:cloud](https://zid.univie.ac.at/en/ucloud)
+- [UniVie Share](https://zid.univie.ac.at/en/share)
+- [LiSC](https://lisc.univie.ac.at/) instead.
 
 **What NOT to do**:
 
-- Storing data on your computer/thumb drive/hard drive. Use [u:cloud](https://zid.univie.ac.at/en/ucloud), the [share](https://zid.univie.ac.at/en/share), or [LiSC](https://lisc.univie.ac.at/) instead.
-- Storing large artifacts (=derived data)
+- Storing data on your thumb drive or external hard drive.
+- Storing large artifacts (=derived data) that can be easily generated. In this case, document and store the script instead.
 
 
 ### Licensing
@@ -210,7 +207,8 @@ This ensures lab research is reusable and reproducible, with minimal legal barri
 - **Data (derived, structured)**: the default recommended license is [CC BY](https://creativecommons.org/licenses/by/4.0/deed.en)
 - **Computer code**: the default recommended license is [MIT](https://opensource.org/license/mit)
 
-Certain funders and/or project will need special licensing accommodations. If in doubt, feel free to discuss with Mitja.
+Certain funders and/or project will need special licensing accommodations. 
+If in doubt, feel free to discuss with Mitja.
 
 ### Computer source code
 
@@ -219,8 +217,11 @@ If your project entails computational work, you are expected to create a GitHub 
 All code repositories must be owned by the Zdouc Lab GitHub Organization to guarantee long-term maintenance.
 By default, repositories should be public, and private repositories must be discussed with Mitja first.
 Please adhere to [good coding practices](https://en.wikipedia.org/wiki/Coding_best_practices), e.g. by first taking a look at our [modern python](https://github.com/zdouc-lab/modern_python) repository.
+For advice on how to organize your code, feel free to discuss with Mitja.
 
 ### Computer infrastructure
+
+**See [this document](extras/windows_alternatives.md) for replacing Windows-programs with free (open source) alternatives**
 
 The Zdouc Lab provides IT infrastructure to its members.
 We are a Linux-only lab, for educational, ethical, and practical purposes.
@@ -228,20 +229,22 @@ Our operating system of choice is Ubuntu Linux, and you are expected to make an 
 
 Depending on your project and your academic progress, the offered IT infrastructure will differ:
 
-- **Computational**: for the duration of your thesis, you will receive a notebook with pre-installed software. You may also use this notebook to (temporarily) store data (see also [Research Data Management](#research-data-management). Terms of use apply and are discussed during onboarding.
-- **Wet-lab**: two desktop computers for general use are available, with a single user account available to all lab members. These machines are not intended to store data.
+- **Computational**: for the duration of your thesis, you will receive a notebook with pre-installed software. Terms of use apply and are discussed during onboarding.
+- **Wet-lab**: two desktop computers for general use are available, with a single user account available to all lab members.
 
-Additionally, there is a single (!) Windows machine that is exclusively used for interaction with other IT infrastructure (e.g. printing, scanning)
+Additionally, there is a single (!) Windows machine that is exclusively used for interaction with other IT infrastructure (e.g. printing, scanning).
 This machine is not intended for work.
 
 ## Additional resources
 
-TBA
+- [Data Management Plan](extras/data_management_plan.md)
+- [Windows Program Alternatives](extras/windows_alternatives.md)
 
 ## Closing
 
 Thank you for going through this document.
 If you are asked, the password is "swordfish".
 
+## Credits
 
 *This onboarding document is loosely based on the [Greene Laboratory Onboarding Information](https://github.com/greenelab/onboarding/blob/master/onboarding.md)*
