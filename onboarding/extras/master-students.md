@@ -115,9 +115,9 @@ The Zdouc lab believes in compact but well-crafted theses that concisely describ
 In general, theses should follow the classical paper-format, resulting in 25-30 pages in total (depending on formatting ect):
 
 - [**Abstract**](https://writing.wisc.edu/handbook/assignments/writing-an-abstract-for-your-research-paper/) (150-200 words)
-- Introduction (~800 words)
-- Results (~1000 words)
-- Discussion (~800 words)
+- Introduction (~1500 words)
+- Results (~2000 words)
+- Discussion (~1500 words)
 - Methods (as long as necessary, referring to literature if possible)
 - References (as many as you want, provided that you have actually read them)
 
