@@ -4,6 +4,17 @@
 
 *Nota bene: this is a living document and will change with time. Make sure to return regularly.*
 
+## Table of contents
+
+- [Mission Statement](#mission-statement)
+- [Expectations](#expectations)
+- [Meetings](#meetings)
+- [Infrastructure](#infrastructure)
+- [Additional Resources](#additional-resources)
+- [Closing](#closing)
+- [Credits](#credits)
+
+
 ## Mission Statement
 
 THe core purpose of the Zdouc Lab is the discovery of novel microbial natural products, usable as drugs, agrochemicals, and food additives.
