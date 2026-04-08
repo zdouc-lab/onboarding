@@ -179,7 +179,7 @@ As always, special accommodations need to be discussed with and agreed upon by M
 
 The Zdouc lab primarily communicates internally via the [Element](https://app.element.io/#/register) client, with [Matrix.org](https://matrix.org/) as the server.
 You are expected to register an account and connect to the `Zdouc-Lab` space. 
-Please ask Mitja for an invitation link.
+Ask Mitja to add you to the group space.
 
 ### Research data management
 
