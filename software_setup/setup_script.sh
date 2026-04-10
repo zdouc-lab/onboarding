@@ -71,9 +71,10 @@ usermod -aG docker student
 
 echo "##########################################"
 echo "Installing Cytoscape"
+apt install -y openjdk-17-jre
 curl -L "$CYTOSCAPE" -o /tmp/cytoscape.sh
 chmod +x /tmp/cytoscape.sh
-sh /tmp/cytoscape.sh
+sh -q /tmp/cytoscape.sh -q
 
 echo "##########################################"
 echo "Installing JetBrains Toolbox (Pycharm)"
