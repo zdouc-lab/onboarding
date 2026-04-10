@@ -6,7 +6,7 @@ MZMINE="https://github.com/mzmine/mzmine/releases/download/v4.9.0/mzmine_4.9.0_a
 JETBRAINS="jetbrains-toolbox-3.3.1.75249"
 UV="https://astral.sh/uv/install.sh"
 CYTOSCAPE="https://github.com/cytoscape/cytoscape/releases/download/3.10.4/Cytoscape_3_10_4_unix.sh"
-DOCKER_DESKTOP="https://desktop.docker.com/linux/main/amd64/docker-desktop-amd64.deb?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-linux-amd64"
+DOCKER="https://get.docker.com/"
 
 
 if [[ $EUID -ne 0 ]]; then
@@ -63,28 +63,20 @@ curl -L "$MZMINE" -o /tmp/mzmine.deb
 apt install -y /tmp/mzmine.deb
 
 echo "##########################################"
-echo "Installing Docker Desktop Linux"
-apt update
-apt install ca-certificates curl
-install -m 0755 -d /etc/apt/keyrings
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
-chmod a+r /etc/apt/keyrings/docker.asc
-tee /etc/apt/sources.list.d/docker.sources <<EOF
-Types: deb
-URIs: https://download.docker.com/linux/ubuntu
-Suites: $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}")
-Components: stable
-Architectures: $(dpkg --print-architecture)
-Signed-By: /etc/apt/keyrings/docker.asc
-EOF
-apt update
-apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-curl -L "$DOCKER_DESKTOP" -o /tmp/docker.deb
-apt install -y /tmp/docker.deb
+echo "Installing Docker"
+curl -L "$DOCKER" -o /tmp/docker.sh
+chmod +x /tmp/docker.sh
+sh /tmp/docker.sh
+groupadd docker
+usermod -aG docker "$USER"
+newgrp docker
 
 echo "##########################################"
 echo "Installing Cytoscape"
-curl -LsSf "$CYTOSCAPE" | sh
+curl -L "$CYTOSCAPE" -o /tmp/cytoscape.sh
+chmod +x /tmp/cytoscape.sh
+sh /tmp/cytoscape.sh
+
 
 echo "##########################################"
 echo "Installing JetBrains Toolbox (Pycharm)"
