@@ -53,15 +53,6 @@ echo "Installing Uv (Python package manager)"
 curl -LsSf "$UV" | sh
 
 echo "##########################################"
-echo "Installing JetBrains Toolbox (Pycharm)"
-mkdir -p ./jetbrains
-curl -L https://download.jetbrains.com/toolbox/"$JETBRAINS".tar.gz -o /tmp/jetbrains.tar.gz
-tar -xvf /tmp/jetbrains.tar.gz -C ./jetbrains
-./jetbrains/"$JETBRAINS"/bin/jetbrains-toolbox
-chown -R student:student ./jetbrains
-chmod 700 ./jetbrains
-
-echo "##########################################"
 echo "Installing Obsidian"
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install -y flathub md.obsidian.Obsidian
@@ -79,3 +70,13 @@ apt install -y /tmp/docker.deb
 echo "##########################################"
 echo "Installing Cytoscape"
 curl -LsSf "$CYTOSCAPE" | sh
+
+echo "##########################################"
+echo "Installing JetBrains Toolbox (Pycharm)"
+mkdir -p ./jetbrains
+curl -L https://download.jetbrains.com/toolbox/"$JETBRAINS".tar.gz -o /tmp/jetbrains.tar.gz
+tar -xvf /tmp/jetbrains.tar.gz -C ./jetbrains
+./jetbrains/"$JETBRAINS"/bin/jetbrains-toolbox
+chown -R student:student ./jetbrains
+chmod 700 ./jetbrains
+
