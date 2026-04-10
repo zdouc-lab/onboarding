@@ -77,7 +77,7 @@ sh -q /tmp/cytoscape.sh -q
 
 echo "##########################################"
 echo "Installing Pycharm via Flatpak"
-flatpak -y install flathub com.jetbrains.PyCharm-Community
+flatpak -y install flathub com.jetbrains.PyCharm-Professional
 
 
 mkdir -p ./jetbrains
