@@ -3,7 +3,6 @@ set -euo pipefail
 
 # Vars for direct downloads
 MZMINE="https://github.com/mzmine/mzmine/releases/download/v4.9.0/mzmine_4.9.0_amd64.deb"
-JETBRAINS="jetbrains-toolbox-3.3.1.75249"
 UV="https://astral.sh/uv/install.sh"
 CYTOSCAPE="https://github.com/cytoscape/cytoscape/releases/download/3.10.4/Cytoscape_3_10_4_unix.sh"
 DOCKER="https://get.docker.com/"
@@ -77,7 +76,10 @@ chmod +x /tmp/cytoscape.sh
 sh -q /tmp/cytoscape.sh -q
 
 echo "##########################################"
-echo "Installing JetBrains Toolbox (Pycharm)"
+echo "Installing Pycharm via Flatpak"
+flatpak -y install flathub com.jetbrains.PyCharm-Community
+
+
 mkdir -p ./jetbrains
 curl -L https://download.jetbrains.com/toolbox/"$JETBRAINS".tar.gz -o /tmp/jetbrains.tar.gz
 tar -xvf /tmp/jetbrains.tar.gz -C ./jetbrains
