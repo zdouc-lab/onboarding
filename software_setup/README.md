@@ -8,12 +8,13 @@
 
 - Download and run the installer script
 ```commandline
-wget https://raw.githubusercontent.com/zdouc-lab/onboarding/refs/heads/main/software_setup/setup_student.sh
-chmod +x ./setup_student.sh
-sudo ./setup_student.sh
+wget https://raw.githubusercontent.com/zdouc-lab/onboarding/refs/heads/main/software_setup/setup_script.sh
+chmod +x ./setup_script.sh
+sudo ./setup_script.sh
 ```
 
 - Via the newly installed JetBrains Toolbox, install Pycharm (Community Version)
+- Via the newly installed Docker Desktop, install MITE and FERMO offline
 
 
 ## Configuration
