@@ -67,16 +67,13 @@ echo "Installing Docker"
 curl -L "$DOCKER" -o /tmp/docker.sh
 chmod +x /tmp/docker.sh
 sh /tmp/docker.sh
-groupadd docker
-usermod -aG docker "$USER"
-newgrp docker
+usermod -aG docker student
 
 echo "##########################################"
 echo "Installing Cytoscape"
 curl -L "$CYTOSCAPE" -o /tmp/cytoscape.sh
 chmod +x /tmp/cytoscape.sh
 sh /tmp/cytoscape.sh
-
 
 echo "##########################################"
 echo "Installing JetBrains Toolbox (Pycharm)"
