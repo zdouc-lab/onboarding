@@ -4,6 +4,10 @@ set -euo pipefail
 # Vars for direct downloads
 MZMINE="https://github.com/mzmine/mzmine/releases/download/v4.9.0/mzmine_4.9.0_amd64.deb"
 JETBRAINS="jetbrains-toolbox-3.3.1.75249"
+UV="https://astral.sh/uv/install.sh"
+CYTOSCAPE="https://github.com/cytoscape/cytoscape/releases/download/3.10.4/Cytoscape_3_10_4_unix.sh"
+DOCKER="https://desktop.docker.com/linux/main/amd64/docker-desktop-amd64.deb?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-linux-amd64"
+
 
 if [[ $EUID -ne 0 ]]; then
   echo "Please run as root (sudo ./setup.sh)"
@@ -41,11 +45,12 @@ apt-get update && \
     flatpak \
     inkscape \
     safeeyes \
-    element-desktop
+    element-desktop \
+    htop
 
 echo "##########################################"
 echo "Installing Uv (Python package manager)"
-curl -LsSf https://astral.sh/uv/install.sh | sh
+curl -LsSf "$UV" | sh
 
 echo "##########################################"
 echo "Installing JetBrains Toolbox (Pycharm)"
@@ -66,3 +71,11 @@ echo "Installing MZmine4"
 curl -L "$MZMINE" -o /tmp/mzmine.deb
 apt install -y /tmp/mzmine.deb
 
+echo "##########################################"
+echo "Installing Docker Desktop Linux"
+curl -L "$DOCKER" -o /tmp/docker.deb
+apt install -y /tmp/docker.deb
+
+echo "##########################################"
+echo "Installing Cytoscape"
+curl -LsSf "$CYTOSCAPE" | sh
