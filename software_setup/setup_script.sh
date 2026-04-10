@@ -77,13 +77,4 @@ sh -q /tmp/cytoscape.sh -q
 
 echo "##########################################"
 echo "Installing Pycharm via Flatpak"
-flatpak -y install flathub com.jetbrains.PyCharm-Professional
-
-
-mkdir -p ./jetbrains
-curl -L https://download.jetbrains.com/toolbox/"$JETBRAINS".tar.gz -o /tmp/jetbrains.tar.gz
-tar -xvf /tmp/jetbrains.tar.gz -C ./jetbrains
-./jetbrains/"$JETBRAINS"/bin/jetbrains-toolbox
-chown -R student:student ./jetbrains
-chmod 700 ./jetbrains
-
+snap install pycharm --classic
