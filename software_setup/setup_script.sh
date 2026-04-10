@@ -79,7 +79,8 @@ Signed-By: /etc/apt/keyrings/docker.asc
 EOF
 apt update
 apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-curl -LsSf "$DOCKER_DESKTOP" | sh
+curl -L "$DOCKER_DESKTOP" -o /tmp/docker.deb
+apt install -y /tmp/docker.deb
 
 echo "##########################################"
 echo "Installing Cytoscape"
