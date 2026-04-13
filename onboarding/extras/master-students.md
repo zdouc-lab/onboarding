@@ -41,13 +41,14 @@ It is structured to be followed from top to bottom.
 3. Created a [Nanodash](https://nanodash.knowledgepixels.com/) account, created your introductory [Nanopublication](https://nanopub.net/), asked Mitja to approve you.
 4. (If project is computational, received notebook with personal user account, signed terms of use)
 5. (If project is computational, registered for an account on [LiSC](https://lisc.univie.ac.at/). See also [Config Setup](../../config_setup/README.md) for additional information.)
-6. (If project is wet-lab, had a lab safety tour with Mitja).
+6. (If project is wet-lab, had a lab safety tour with the lab manager).
 7. Received a key to the lab.
 
 ### Learning
 
 1. Completed [NASA's Open Science 101 Training](https://science.nasa.gov/open-science/training/)
 2. Completed [u:respect course](https://urespect.univie.ac.at/)
+3. (If project wet-lab) completed Moodle Elearning course
 
 ### Project
 
