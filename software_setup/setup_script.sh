@@ -71,9 +71,9 @@ usermod -aG docker student
 echo "##########################################"
 echo "Installing Cytoscape"
 apt install -y openjdk-17-jre
-curl -L "$CYTOSCAPE" -o /tmp/cytoscape.sh
-chmod +x /tmp/cytoscape.sh
-sh -q /tmp/cytoscape.sh -q
+curl -L "$CYTOSCAPE" -o /opt/cytoscape.sh
+chmod +x /opt/cytoscape.sh
+sh /opt/cytoscape.sh -q
 
 echo "##########################################"
 echo "Installing Pycharm via Flatpak"
