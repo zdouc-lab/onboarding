@@ -88,7 +88,7 @@ Proposals try to answer **What**, **How**, **Where**, **When**, **Why**, and **W
 
 1. Project title, personal information, supervisor name (the Who)
 2. **Introduction** of the topic, background, and problem (the What and Why)
-3. **Objectives** (the What)
+3. **Objectives**, both of the project and [learning objectives using Bloom's Taxonomy](https://tips.uark.edu/using-blooms-taxonomy/) (the What)
 4. **Approach** (the How)
 5. **Work plan** with Gantt chart (the When)
 6. **References** (the Where)
