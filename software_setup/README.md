@@ -4,7 +4,7 @@
 
 ## Installation
 
-- Login, create new user, set password. Do not give sudo rights.
+- Login, create new user `student`, set password. Do not give sudo rights.
 
 - Download and run the installer script
 ```commandline
