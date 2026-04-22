@@ -36,26 +36,28 @@ It is structured to be followed from top to bottom.
 
 ### Infrastructure
 
-1. Connected to Zdouc Lab Element chat
-2. Created an [ORCID](https://orcid.org/register)
+1. Connected to Zdouc Lab Element chat.
+2. Created an [ORCID](https://orcid.org/register).
 3. Created a [Nanodash](https://nanodash.knowledgepixels.com/) account, created your introductory [Nanopublication](https://nanopub.net/), asked Mitja to approve you.
-4. (If project is computational, received notebook with personal user account, signed terms of use)
-5. (If project is computational, registered for an account on [LiSC](https://lisc.univie.ac.at/). See also [Config Setup](../../config_setup/README.md) for additional information.)
-6. (If project is wet-lab, had a lab safety tour with the lab manager).
+4. (If project is computational, received notebook with personal user account, signed terms of use).
+5. (If project is computational, registered for an account on [LiSC](https://lisc.univie.ac.at/). See also [Config Setup](../../config_setup/README.md) for additional information).
+6. (If project is wet-lab, had a lab safety tour with the lab manager, did the safety test on Moodle - ask Mitja to add you).
 7. Received a key to the lab.
+8. Registered for the Master student seminar.
+9. Registered for the Master student journal club.
 
 ### Learning
 
-1. Completed [NASA's Open Science 101 Training](https://science.nasa.gov/open-science/training/)
-2. Completed [u:respect course](https://urespect.univie.ac.at/)
-3. (If project wet-lab) completed Moodle Elearning course
+1. Completed [NASA's Open Science 101 Training](https://science.nasa.gov/open-science/training/).
+2. Completed [u:respect course](https://urespect.univie.ac.at/).
+3. (If project wet-lab) completed Moodle Elearning course.
 
 ### Project
 
-1. Prepared project proposal/exposé, shared with Mitja, received feedback and approval
-2. Filled in [Data Management Plan](data_management_plan.md)
-3. Started a lab journal with daily logs (our recommendation: [Obsidian](https://obsidian.md/))
-4. Registered the topic with the [Study office](https://ssc-lebenswissenschaften.univie.ac.at/pharmazie/masterstudium/masterarbeit/anmeldung-des-themas/) and received approval
+1. Prepared project proposal/exposé, shared with Mitja, received feedback and approval.
+2. Filled in [Data Management Plan](data_management_plan.md).
+3. Started a lab journal in [Obsidian](https://obsidian.md/), got access to your personal lab book-repository on the Zdouc Lab Github, created your first commit.
+4. Registered the topic with the [Study office](https://ssc-lebenswissenschaften.univie.ac.at/pharmazie/masterstudium/masterarbeit/anmeldung-des-themas/) and received approval.
 
 ## Finishing checklist
 
