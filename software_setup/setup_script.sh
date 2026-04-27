@@ -57,6 +57,11 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 flatpak install -y flathub md.obsidian.Obsidian
 
 echo "##########################################"
+echo "Installing Tor-browser"
+flatpak install flathub org.torproject.torbrowser-launcher
+flatpak run org.torproject.torbrowser-launcher
+
+echo "##########################################"
 echo "Installing MZmine4"
 curl -L "$MZMINE" -o /tmp/mzmine.deb
 apt install -y /tmp/mzmine.deb
