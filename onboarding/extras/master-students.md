@@ -42,9 +42,10 @@ It is structured to be followed from top to bottom.
 4. (If project is computational, received notebook with personal user account, signed terms of use).
 5. (If project is computational, registered for an account on [LiSC](https://lisc.univie.ac.at/). See also [Config Setup](../../config_setup/README.md) for additional information).
 6. (If project is wet-lab, had a lab safety tour with the lab manager, did the safety test on Moodle - ask Mitja to add you).
-7. Received a key to the lab.
-8. Registered for the Master student seminar.
-9. Registered for the Master student journal club.
+7. (If project is wet-lab, got own account on one of the desktop computers).
+8. Received a key to the lab.
+9. Registered for the Master student seminar.
+10. Registered for the Master student journal club.
 
 ### Learning
 
