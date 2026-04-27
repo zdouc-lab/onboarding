@@ -238,10 +238,12 @@ The Zdouc Lab provides IT infrastructure to its members.
 We are a Linux-only lab, for educational, ethical, and practical purposes.
 Our operating system of choice is Ubuntu Linux, and you are expected to make an effort in adopting it for your work.
 
+Two desktop computers for general use are available. A user account for general use is set up, where all lab members have access.
+
 Depending on your project and your academic progress, the offered IT infrastructure will differ:
 
 - **Computational**: for the duration of your thesis, you will receive a notebook with pre-installed software. Terms of use apply and are discussed during onboarding.
-- **Wet-lab**: two desktop computers for general use are available, with a single user account available to all lab members.
+- **Wet-lab**: you will receive a personal account on one of the desktop computers.
 
 Additionally, there is a single (!) Windows machine that is exclusively used for interaction with other IT infrastructure (e.g. printing, scanning).
 This machine is not intended for work.
