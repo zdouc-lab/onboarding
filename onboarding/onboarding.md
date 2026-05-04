@@ -227,7 +227,7 @@ The Zdouc lab keeps source code in its [GitHub Organization](https://github.com/
 If your project entails computational work, you are expected to create a GitHub account and request membership with the [Zdouc Lab GitHub Organization](https://github.com/zdouc-lab).
 All code repositories must be owned by the Zdouc Lab GitHub Organization to guarantee long-term maintenance.
 By default, repositories should be public, and private repositories must be discussed with Mitja first.
-Please adhere to [good coding practices](https://en.wikipedia.org/wiki/Coding_best_practices), e.g. by first taking a look at our [modern python](https://github.com/zdouc-lab/modern_python) repository.
+Please adhere to [our good coding practices](./protocols/software_engineering.md), e.g. by first taking a look at our [modern python](https://github.com/zdouc-lab/modern_python) repository.
 For advice on how to organize your code, feel free to discuss with Mitja.
 
 ### Computer infrastructure
