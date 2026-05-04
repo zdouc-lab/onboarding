@@ -11,15 +11,15 @@ This document is structured as follows:
 
 - [Project timeline](#project-timeline)
 - [Starting checklist](#starting-checklist)
-- [Finishing checklist](#finishing-checklist)
 - [How to write project proposal](#project-proposal)
 - [How to write your thesis](#thesis-writing)
+- [Finishing checklist](#finishing-checklist)
 
 ## Project timeline
 
 All projects in the Zdouc lab should follow this approximate timeline:
 
-1. Project kickoff
+1. Project kickoff (first day of project)
 2. Project proposal writing (first ~2 weeks)
 3. Project proposal discussion
 4. Project work with weekly 1:1 meeting
@@ -43,9 +43,10 @@ It is structured to be followed from top to bottom.
 5. (If project is computational, registered for an account on [LiSC](https://lisc.univie.ac.at/). See also [Config Setup](../../config_setup/README.md) for additional information).
 6. (If project is wet-lab, had a lab safety tour with the lab manager, did the safety test on Moodle - ask Mitja to add you).
 7. (If project is wet-lab, got own account on one of the desktop computers).
-8. Received a key to the lab.
-9. Registered for the Master student seminar.
-10. Registered for the Master student journal club.
+8. (If project is wet-lab, get introduced to inventory system.)
+9. Received a key to the lab.
+10. Registered for the Master student seminar.
+11. Registered for the Master student journal club.
 
 ### Learning
 
@@ -60,19 +61,7 @@ It is structured to be followed from top to bottom.
 3. Started a lab journal in [Obsidian](https://obsidian.md/), got access to your personal lab book-repository on the Zdouc Lab Github, created your first commit.
 4. Registered the topic with the [Study office](https://ssc-lebenswissenschaften.univie.ac.at/pharmazie/masterstudium/masterarbeit/anmeldung-des-themas/) and received approval.
 
-## Finishing checklist
-
-1. Sent thesis draft to Mitja until agreed-upon deadline
-2. Received feedback on thesis draft, incorporated it
-3. Formatted master thesis following the [formal guidelines](https://ssc-lebenswissenschaften.univie.ac.at/pharmazie/masterstudium/masterarbeit/formvorschriften/)
-4. Prepared final thesis document pdf
-5. Passed the [plagiarism check](https://ssc-lebenswissenschaften.univie.ac.at/pharmazie/masterstudium/masterarbeit/plagiatspruefung/)
-6. Submitted thesis for [examination](https://ssc-lebenswissenschaften.univie.ac.at/pharmazie/masterstudium/masterarbeit/einreichung-der-arbeit/), keeping to the described deadlines.
-7. After grading, registered for the defense date.
-8. Prepared a short presentation (max. 10 mins) about thesis, to be presented during defense (coordinate with Mitja)
-9. Prepared a debriefing document, describing location of resources created during thesis projects (e.g. data, isolates, strains, extracts)
-
-### Project proposal
+## Project proposal
 
 The first ~two weeks of your project, you will spend on writing your project proposal.
 This document is integral in turning the project advert into *your* project.
@@ -100,9 +89,9 @@ Proposals try to answer **What**, **How**, **Where**, **When**, **Why**, and **W
 
 There are many resources available on the web, including from the [University of Vienna](https://ctl.univie.ac.at/fileadmin/user_upload/z_ctl_neu/Angebote_fuer_Lehrende/Wissenschaftliches_Schreiben_und_Arbeiten/Materialien_fuer_die_Lehre/Team_Schreiben/Expose.pdf)
 
-### Thesis Writing
+## Thesis Writing
 
-#### How does scientific writing work?
+### How does scientific writing work?
 
 At its core, scientific writing is actually surprisingly easy.
 Many people assume that it must entail complicated sentences, abstract ideas, and long paragraphs, which is of course nonsense.
@@ -114,7 +103,7 @@ These elements **can** be considered in a Master thesis, but **do not have to be
 
 **Always remember: a great Master thesis is a finished Master thesis.**
 
-#### Structure of a thesis
+### Structure of a thesis
 
 The Master thesis is a concise summary of your project work, your results, and insights.
 The Zdouc lab believes in compact but well-crafted theses that concisely describe **who** has done **what**, **when**, **why**, **how**, and **where**.
@@ -127,7 +116,7 @@ In general, theses should follow the classical paper-format, resulting in 25-30 
 - Methods (as long as necessary, referring to literature if possible)
 - References (as many as you want, provided that you have actually read them)
 
-#### Structure of a paragraph
+### Structure of a paragraph
 
 Usually, you start a paragraph with a one-sentence context/introduction, followed by a main part describing an observation, followed by some sort of conclusion sentence.
 Each paragraph should transport one idea, while multiple paragraphs describe a section.
@@ -138,7 +127,7 @@ For instance, a typical Introduction section in a scientific paper consists of t
 - The second paragraphs describes the specific problem and the gap in capability (e.g. that natural product research is inefficient due to the rediscovery of known compounds).
 - The third paragraph describes the solution to this problem and its implications to the field in general (e.g. a software tool that can help prioritizing novel antibiotic compounds).
 
-#### How to cite
+### How to cite
 
 Citation style and form strongly depend on the respective research field, ranging from highly detailed to more general approaches.
 The following conventions apply in natural product research (as performed in the Zdouc Lab):
@@ -149,7 +138,7 @@ The following conventions apply in natural product research (as performed in the
 - Websites or "personal communication" are usually not suitable as references
 - Direct quotes are practically non-existent in natural product research literature
 
-##### What is plagiarism?
+### What is plagiarism?
 
 Plagiarism is presenting another ideas and statements as your own, without indicating their provenance.
 Therefore, plagiarism is a form of fraud that is punished due to its toxic influence on science communication.
@@ -164,7 +153,7 @@ If you are unsure about how to cite something, feel free to reach out to Mitja.
 
 More about plagiarism can be found in [Good Academic Practice](https://www.univie.ac.at/en/about-us/good-academic-practice)
 
-#### GenAI in thesis writing
+### GenAI in thesis writing
 
 *Nota bene: please also see our [general AI policy](../onboarding.md#ai-policy)*
 
@@ -177,3 +166,16 @@ Perhaps you can choose not to use GenAI for that.
 
 Even if your English is not perfect, it is much preferable over AI-generated text. 
 Remember, it is *your* learning opportunity you are taking away by using GenAI. 
+
+
+## Finishing checklist
+
+1. Sent thesis draft to Mitja until agreed-upon deadline
+2. Received feedback on thesis draft, incorporated it
+3. Formatted master thesis following the [formal guidelines](https://ssc-lebenswissenschaften.univie.ac.at/pharmazie/masterstudium/masterarbeit/formvorschriften/)
+4. Prepared final thesis document pdf
+5. Passed the [plagiarism check](https://ssc-lebenswissenschaften.univie.ac.at/pharmazie/masterstudium/masterarbeit/plagiatspruefung/)
+6. Submitted thesis for [examination](https://ssc-lebenswissenschaften.univie.ac.at/pharmazie/masterstudium/masterarbeit/einreichung-der-arbeit/), keeping to the described deadlines.
+7. After grading, registered for the defense date.
+8. Prepared a short presentation (max. 10 mins) about thesis, to be presented during defense (coordinate with Mitja)
+9. Prepared a debriefing document, describing location of resources created during thesis projects (e.g. data, isolates, strains, extracts)
