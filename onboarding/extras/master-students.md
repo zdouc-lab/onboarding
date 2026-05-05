@@ -76,7 +76,7 @@ All projects in the Zdouc lab should follow this approximate timeline:
 8. Prepared a short presentation (max. 10 mins) about thesis, to be presented during defense (coordinate with Mitja)
 9. Prepared a debriefing document, describing location of resources created during thesis projects (e.g. data, isolates, strains, extracts)
 
-### Project proposal
+## Project proposal
 
 The first ~two weeks of your project, you will spend on writing your project proposal.
 This document is integral in turning the project advert into *your* project.
@@ -104,7 +104,7 @@ Proposals try to answer **What**, **How**, **Where**, **When**, **Why**, and **W
 
 There are many resources available on the web, including from the [University of Vienna](https://ctl.univie.ac.at/fileadmin/user_upload/z_ctl_neu/Angebote_fuer_Lehrende/Wissenschaftliches_Schreiben_und_Arbeiten/Materialien_fuer_die_Lehre/Team_Schreiben/Expose.pdf)
 
-### Thesis Writing
+## Thesis Writing
 
 #### How does scientific writing work?
 
