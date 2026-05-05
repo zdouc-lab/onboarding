@@ -54,7 +54,7 @@ It is structured to be followed from top to bottom.
 
 All projects in the Zdouc lab should follow this approximate timeline:
 
-1. Project kickoff
+1. Project kickoff (first day of project)
 2. Project proposal writing (first ~2 weeks)
 3. Project proposal discussion
 4. Project work with weekly 1:1 meeting
