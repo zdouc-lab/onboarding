@@ -166,7 +166,7 @@ The meetings are expected to follow a certain format, with you preparing a short
 
 ### Walk-in hours
 
-Every Thursday from 1 pm to 2 pm, Mitja reserves time for informal discussion, questions, etc.
+Mitja reserves time for informal discussion, questions, etc. during his walk-in hours, which can be found [here](https://ufind.univie.ac.at/de/person.html?id=1021853).
 Students asking questions about teaching have priority, but anyone of them team can feel free to drop by.
 
 ## Infrastructure
