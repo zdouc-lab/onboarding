@@ -201,7 +201,7 @@ Nonetheless, there are several options that can be considered to **temporarily**
 
 - [u:cloud](https://zid.univie.ac.at/en/ucloud)
 - [UniVie Share](https://zid.univie.ac.at/en/share)
-- [LiSC](https://lisc.univie.ac.at/) instead.
+- [LiSC](https://lisc.univie.ac.at/).
 
 **What NOT to do**:
 
@@ -238,12 +238,10 @@ The Zdouc Lab provides IT infrastructure to its members.
 We are a Linux-only lab, for educational, ethical, and practical purposes.
 Our operating system of choice is Ubuntu Linux, and you are expected to make an effort in adopting it for your work.
 
-Two desktop computers for general use are available. A user account for general use is set up, where all lab members have access.
+Several desktop computers for general use are available. A user account for general use is set up, where all lab members have access.
+Personal accounts can be set up upon request
 
-Depending on your project and your academic progress, the offered IT infrastructure will differ:
-
-- **Computational**: for the duration of your thesis, you will receive a notebook with pre-installed software. Terms of use apply and are discussed during onboarding.
-- **Wet-lab**: you will receive a personal account on one of the desktop computers.
+You can also bring your own machine, provided that you can run a Linux- or Linux-like system (e.g. MacOS) on it. Mitja can help you with setting up Linux on your computer. 
 
 Additionally, there is a single (!) Windows machine that is exclusively used for interaction with other IT infrastructure (e.g. printing, scanning).
 This machine is not intended for work.
@@ -252,11 +250,6 @@ This machine is not intended for work.
 
 - [Data Management Plan](extras/data_management_plan.md)
 - [Windows Program Alternatives](extras/windows_alternatives.md)
-
-## Closing
-
-Thank you for going through this document.
-If you are asked, the password is "swordfish".
 
 ## Credits
 
