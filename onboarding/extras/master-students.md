@@ -30,12 +30,11 @@ It is structured to be followed from top to bottom.
 6. [Generated SSH Keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) and added the public key to [GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 7. Within the Zdouc Lab GitHub Organization, set up a private repository to hold the lab book/protocol, cloned it to the local machine, and started the labbook in Obsidian.
 8. Got access to UniVie Share/UCloud
-9. (If project is computational, received laptop computer with personal user account, signed terms of use).
-10. (If project is computational, registered for an account on [LiSC](https://lisc.univie.ac.at/). See also [Config Setup](../../config_setup/README.md) for additional information).
-11. (If project is wet-lab, had a lab safety tour with the lab manager, did the safety test on Moodle - ask Mitja to add you).
-12. (If project is wet-lab, got own account on one of the desktop computers).
-13. Registered for the Master student seminar.
-14. Registered for the Master student journal club.
+9. (If project is computational, registered for an account on [LiSC](https://lisc.univie.ac.at/). See also [Config Setup](../../config_setup/README.md) for additional information).
+10. (If project is wet-lab, had a lab safety tour with the lab manager, did the safety test on Moodle - ask Mitja to add you).
+11. (If project is wet-lab, got own account on one of the desktop computers).
+12. Registered for the Master student seminar.
+13. Registered for the Master student journal club.
 
 ### Learning
 
