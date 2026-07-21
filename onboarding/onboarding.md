@@ -250,6 +250,7 @@ This machine is not intended for work.
 
 - [Data Management Plan](extras/data_management_plan.md)
 - [Windows Program Alternatives](extras/windows_alternatives.md)
+- [Internal tracking docs](extras/links_internal_docs.md)
 
 ## Credits
 
