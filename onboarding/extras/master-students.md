@@ -35,6 +35,9 @@ It is structured to be followed from top to bottom.
 11. (If project is wet-lab, got own account on one of the desktop computers).
 12. Registered for the Master student seminar.
 13. Registered for the Master student journal club.
+14. Received a guided tour through the lab
+15. Was assigned a personal folder in the office
+16. Was asked for approval to be featured on the [group website](https://zdouclab.org/team/)
 
 ### Learning
 
