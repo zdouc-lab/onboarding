@@ -28,7 +28,7 @@ It is structured to be followed from top to bottom.
 4. Created a [Nanodash](https://nanodash.knowledgepixels.com/) account, created your introductory [Nanopublication](https://nanopub.net/), asked Mitja to approve you.
 5. Created a [GitHub Account](https://github.com/) and joined the [Zdouc Lab GitHub Organization](https://github.com/zdouc-lab)
 6. [Generated SSH Keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) and added the public key to [GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
-7. Within the Zdouc Lab GitHub Organization, set up a private repository to hold the lab book/protocol, cloned it to the local machine, and started the labbook in Obsidian.
+7. Within the Zdouc Lab GitHub Organization, set up a private repository to hold the lab book/protocol, got access rights, cloned it to the local machine, and started the labbook in Obsidian.
 8. Got access to UniVie Share/UCloud
 9. (If project is computational, registered for an account on [LiSC](https://lisc.univie.ac.at/). See also [Config Setup](../../config_setup/README.md) for additional information).
 10. (If project is wet-lab, had a lab safety tour with the lab manager, did the safety test on Moodle - ask Mitja to add you).
