@@ -177,7 +177,7 @@ The Zdouc Lab provides IT infrastructure to its members.
 This includes several desktop computers.
 
 Our operating system of choice is (Ubuntu) Linux, for educational, ethical, and practical purposes.
-The computers provided by the Zdouc Lab all run on Ubuntu Linux, and we encourage our members to adopt Linux and other [free open source software](extras/windows_alternatives.md) for their work.
+The computers provided by the Zdouc Lab all run on Ubuntu Linux, and we encourage our members to adopt Linux and other [free open source software](protocols/windows_alternatives.md) for their work.
 All computers have an identical suite of programs, which are defined [here](../software_setup/README.md)
 
 All computers have a general `student` account, where all lab members have access. 
@@ -252,7 +252,7 @@ The meetings are expected to follow a certain format, with you preparing a short
 ## Additional resources
 
 - [Data Management Plan](extras/data_management_plan.md)
-- [Windows Program Alternatives](extras/windows_alternatives.md)
+- [Windows Program Alternatives](protocols/windows_alternatives.md)
 - [Internal tracking docs](extras/links_internal_docs.md)
 
 ## Credits

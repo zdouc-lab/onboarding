@@ -10,18 +10,17 @@ The repository is home to the onboarding information for the [Zdouc Lab](https:/
 - Read the general [Onboarding document](onboarding/onboarding.md)
 - Read the step-by-step [Master Student Onboarding document](onboarding/extras/master-students.md)
 
-## For devs
-
 ### Repository overview
 
 | Name                                                                       | Description                                                   |
 |----------------------------------------------------------------------------|---------------------------------------------------------------|
 | [Onboarding](onboarding/onboarding.md)                                     | Step-by-step onboarding document                              |
-| [Data management plan template](onboarding/extras/data_management_plan.md) | A template for the data management plan                       |
-| [Links](onboarding/extras/links_internal_docs.md)                          | A list of links to internal documents                         |
 | [Master student onboarding](onboarding/extras/links_internal_docs.md)      | Step-by-step onboarding document for master students          |
-| [Windows alternatives](onboarding/extras/windows_alternatives.md)          | List of programs to substitute Windows-only programs          |
+| [Data management plan template](onboarding/extras/data_management_plan.md) | A template for the data management plan                       |
+| [Windows alternatives](onboarding/protocols/windows_alternatives.md)          | List of programs to substitute Windows-only programs          |
 | [Software Engineering](onboarding/protocols/software_engineering.md)       | Best practices for software engineering used in the Zdouc Lab |
+
+## For devs
 
 ### Contributing
 
