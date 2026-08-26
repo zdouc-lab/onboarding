@@ -43,3 +43,5 @@ Figure 1: The edit-button allow to modify files on the GitHub webpage.
 
 You and your supervisor will regularly check if your lab notebook is up-to-date.
 The quality and up-to-dateness of your lab notebook will also be taken into account in your evaluation.
+
+**Remember: your lab notebook can be seen by the whole Zdouc Lab organization**

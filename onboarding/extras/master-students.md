@@ -30,7 +30,7 @@ It is structured to be followed from top to bottom.
 - Registered for the Master student seminar (only for University of Vienna Master students).
 - Registered for the Master student journal club (only for University of Vienna Master students).
 - Received a guided tour through the lab.
-- Was assigned a personal folder in the office.
+- Received a personal folder in the office.
 - Was asked for approval to be featured on the [Zdouc Lab website](https://zdouclab.org/team/).
 
 Specifically for **wet-lab** projects:
@@ -60,7 +60,7 @@ All projects in the Zdouc lab should follow this approximate timeline:
 
 1. Project kickoff (first day of project)
 2. Project proposal writing (first ~2 weeks)
-3. Project proposal discussion
+3. Project proposal discussion, approval
 4. Project work with weekly 1:1 meetings
 5. Midterm presentation
 6. Project work and thesis preparation, weekly 1:1 meeting
@@ -68,7 +68,7 @@ All projects in the Zdouc lab should follow this approximate timeline:
 8. Thesis draft discussion (~2 weeks before end)
 9. Thesis submission, end of project
 
-## Finishing checklist
+## Finishing checklist (for University of Vienna students)
 
 1. Sent thesis draft to Mitja until agreed-upon deadline
 2. Received feedback on thesis draft, incorporated it
@@ -110,17 +110,17 @@ There are many resources available on the web, including from the [University of
 
 ## Thesis Writing
 
+**Always remember: a great Master thesis is a finished Master thesis.**
+
 #### How does scientific writing work?
 
 At its core, scientific writing is actually surprisingly easy.
-Many people assume that it must entail complicated sentences, abstract ideas, and long paragraphs, which is of course nonsense.
-Scientific writing is about describing your research results, the **who** has done **what**, **when**, **why**, **how**, and **where**.
-The actual challenge is to do this in a both concise and comprehensive way - communicating your science as efficiently as possible.
+Many people wrongly assume that it must entail complicated sentences, abstract ideas, and long paragraphs.
+Rather, scientific writing is about describing your research results, the **who** has done **what**, **when**, **why**, **how**, and **where**, as clearly and as simple as possible.
+The challenge is to do this in both a concise and comprehensive way - communicating your science as efficiently as possible.
 
 There are of course additional aspects, such as telling a compelling story, identifying the research gap, interpreting the results and putting them in context of the current state of the art.
 These elements **can** be considered in a Master thesis, but **do not have to be**.
-
-**Always remember: a great Master thesis is a finished Master thesis.**
 
 #### Structure of a thesis
 
@@ -180,7 +180,7 @@ More about plagiarism can be found in [Good Academic Practice](https://www.univi
 
 It is highly tempting to just use GenAI to write your thesis. 
 However, a thesis is much more than its text: it is the result of your scientific thought process and therefore an essential part of the learning objectives of a Master's programme.
-Additionally, there are many additional reasons not to use GenAI, including its [environmental impact](https://www.theguardian.com/technology/2026/jan/03/just-an-unbelievable-amount-of-pollution-how-big-a-threat-is-ai-to-the-climate) and its [tendency to reinforce bias](https://www.unwomen.org/en/news-stories/interview/2025/02/how-ai-reinforces-gender-bias-and-what-we-can-do-about-it).
+There are many other reasons not to use GenAI, including its [environmental impact](https://www.theguardian.com/technology/2026/jan/03/just-an-unbelievable-amount-of-pollution-how-big-a-threat-is-ai-to-the-climate) and its [tendency to reinforce bias](https://www.unwomen.org/en/news-stories/interview/2025/02/how-ai-reinforces-gender-bias-and-what-we-can-do-about-it).
 
 Whenever you feel the need to use GenAI, ask yourself: "Is this statement really necessary?" and "Would a simple Google search also do the job?".
 Perhaps you can choose not to use GenAI for that.

@@ -4,7 +4,8 @@
 
 *Nota bene: this is a living document and will change with time. Make sure to return regularly.*
 
-*Nota bene: this document assumes that you are affiliated with the University of Vienna. For people with other affiliations, not all points may be applicable - feel free to discuss with Mitja.*
+*Nota bene: this document assumes that you are affiliated with the University of Vienna.*
+*For people with other affiliations, not all points may be applicable - feel free to discuss with Mitja.*
 
 ## Table of contents
 
@@ -20,13 +21,11 @@
 ## Mission Statement
 
 THe core purpose of the Zdouc Lab is the discovery of novel microbial natural products, usable as drugs, agrochemicals, and food additives.
-The pillars of our activities are:
+Our main activities are:
 
-- Innovating knowledge representation and interconnection of natural product research data, e.g. by building databases, furthering linked open data, and investing in biocuration.
+- Innovating knowledge representation and interconnection of natural product research data, e.g. by constructing and maintaining databases, furthering linked open data, and investing in biocuration.
 - Building software tools and workflows to support human researchers in data analysis and prioritization, e.g. by training machine learning algorithms.
 - Bridging hypothesis and experiment by biological validation, using e.g. molecular biology and investigating biosynthesis, aiming to deliver tangible results.
-
-The Zdouc Lab is also aware of its responsibility in educating the next generation of scientists and invests in creating high-quality educational materials.
 
 Given its role on the interface of dry- and wet-lab, the Zdouc Lab has a special responsibility regarding the creation and dissemination of data, knowledge, and source code. 
 Members of the Zdouc Lab pledge to:
@@ -38,24 +37,18 @@ Members of the Zdouc Lab pledge to:
 To reach these goals, members of the Zdouc Lab:
 
 - Interact kindly with colleagues and external collaborators and stand against any form of discrimination, as laid out in the [Zdouc Lab Code of Conduct](https://github.com/zdouc-lab/.github/blob/main/CODE_OF_CONDUCT.md).
+- Openly communicate their expectations and needs
+- Resolve conflicts gracefully and respectfully, should they arise.
 - Follow the [University of Vienna's Code of Conduct](https://www.univie.ac.at/en/about-us/legal-information-and-notices/code-of-conduct) in general and specifically regarding [Good Academic Practice](https://www.univie.ac.at/en/about-us/good-academic-practice).
+
+The Zdouc Lab is aware of its responsibility in educating the next generation of scientists and invests in creating high-quality educational materials.
 
 ## Expectations
 
-Clarifying expectations is key in any onboarding process. 
+To facilitate collaboration and interactions, the Zdouc Lab has set up a number of guidelines to clarify expectations of its members.
+
 Conflicts usually arise from conflicting expectations and differing needs. 
-Therefore, we have prepared a number of high-level guidelines that should help to prevent such conflicts.
-
-Nonetheless, it is important to understand that it is normal that conflicts sometimes arise when persons with different needs interact with each other. 
-However, it is essential that we resolve these conflicts in a respectful and graceful manner.
-
-### General expectations
-
-The Zdouc Lab has a strong focus on international collaboration. 
-To foster this spirit, we have implemented these guidelines:
-
-- The working language in the Zdouc Lab is English.
-- When conferring with colleagues, the language of choice should be English, to ensure that everyone feels included.
+If conflicts arise, they should be addressed swiftly and directly, ideally by also including Mitja or another mediator.
 
 ### Your role
 
@@ -63,14 +56,14 @@ Being a member of the Zdouc Lab comes with benefits and responsibilities.
 You acknowledge that you will:
 
 - Be primarily responsible for the success of your research project and career development.
-- Participate fully in the team and be present on-site on at least three days per week to foster interaction. Arrangement based on special needs must be discussed with and agreed by Mitja.
+- Participate fully in the team and be present on-site on at least three days per week to foster interaction (special arrangements can be discussed with Mitja)
 - Take care of your physical and mental health and not overwork yourself.
 - Participate in the monthly lab meetings.
+- Document your work by keeping a [lab notebook](protocols/lab-notebook.md).
 - Adhere to the flex-desk working system and follow our clean desk policy.
 - Take responsibility for any infrastructure made available to you.
 - See problems as challenges that allow you to grow. You will try to solve issues independently, but reach out for help after a reasonable effort has not led to success.
 - Be aware of your project plan, adhere to deadlines for deliverables, specifically when they affect external opportunities (e.g. collaborations, conferences).
-- Document your work by keeping a lab notebook you update regularly (at least weekly)
 - Be mindful that interaction with external opportunities reflect on the entire lab, and make your best effort in furthering its reputation.
 
 ### Mitja's role
@@ -99,6 +92,14 @@ For a confident counseling, please contact the office of the [Beratungsstelle](h
 
 If Mitja is the cause of your concern, [Prof. Iris Stappen](https://ufind.univie.ac.at/de/person.html?id=7003) as member of the [AKGleich](https://gleichbehandlung.univie.ac.at/) has agreed to mediate as a neutral third person.
 
+### Work Language
+
+The Zdouc Lab has a strong focus on international collaboration. 
+To foster this spirit, we have implemented these guidelines:
+
+- The working language in the Zdouc Lab is English.
+- When conferring with colleagues, the language of choice should be English, to ensure that everyone feels included.
+
 ### AI Policy
 
 Over the last years, generative AI (genAI) has become a reality in an educational settings.
@@ -112,8 +113,7 @@ Therefore, the use of genAI is permitted under certain circumstances:
 - The use of genAI is disclosed transparently to avoid issues of plagiarism (presenting another ideas and statements as your own, without indicating their provenance; see also [Good Academic Practice](https://www.univie.ac.at/en/about-us/good-academic-practice)).
 - A section is included that contains a brief reflection on the motivation to use genAI and how it can support the learning outcomes (mostly applicable to educational settings).
 
-There may be certain projects in which the use of genAI is subjected to stronger restrictions. 
-These restrictions will be discussed in the relevant onboarding documentation.
+There may be certain projects in which the use of genAI is subjected to stronger restrictions. Please discuss them with Mitja.
 
 For more information on using GenAI in thesis writing, see the [Master student onboarding docs](extras/master-students.md/#thesis)
 
@@ -133,7 +133,7 @@ As always, special accommodations need to be discussed with and agreed upon by M
 
 ### Communication
 
-The Zdouc lab primarily communicates internally via the [Element](https://app.element.io/#/register) client, with [Matrix.org](https://matrix.org/) as the server.
+Internally, the Zdouc lab primarily communicates via the [Element](https://app.element.io/#/register) client, with [Matrix.org](https://matrix.org/) as the server.
 You are expected to register an account and connect to the `Zdouc-Lab` space. 
 Ask Mitja to add you to the group space.
 
@@ -155,16 +155,15 @@ For this, the Zdouc Lab has implemented the following guidelines (special rules 
 
 Depending on the type of data, we specify different permanent storage options:
 
-- **Raw data**: Community-specific repository and University (LiSC Archive)
-- **Structured data**: Zenodo and University (LiSC Archive)
+- **Raw data**: Community-specific repository and University ([LiSC]([LiSC](https://lisc.univie.ac.at/)) Archive)
+- **Structured data**: Zenodo and University ([LiSC]([LiSC](https://lisc.univie.ac.at/)) Archive)
 - **Computer code**: [Zdouc Lab GitHub Organization](https://github.com/zdouc-lab) -> [Zdouc Lab Zenodo Community](https://zenodo.org/communities/zdouc-lab)
 
 Newly generated data usually cannot be properly archived right away. 
 Nonetheless, there are several options that can be considered to **temporarily** store such data:
 
-- [u:cloud](https://zid.univie.ac.at/en/ucloud)
 - [UniVie Share](https://zid.univie.ac.at/en/share)
-- [LiSC](https://lisc.univie.ac.at/).
+- [u:cloud](https://zid.univie.ac.at/en/ucloud)
 
 **What NOT to do**:
 
@@ -174,14 +173,14 @@ Nonetheless, there are several options that can be considered to **temporarily**
 ### IT infrastructure
 
 The Zdouc Lab provides IT infrastructure to its members. 
-This includes several desktop computers.
+This includes several desktop computers. However, you may also bring your own device.
 
-Our operating system of choice is (Ubuntu) Linux, for educational, ethical, and practical purposes.
+The Zdouc Lab's operating system of choice is (Ubuntu) Linux, for educational, ethical, and practical purposes.
 The computers provided by the Zdouc Lab all run on Ubuntu Linux, and we encourage our members to adopt Linux and other [free open source software](protocols/windows_alternatives.md) for their work.
 All computers have an identical suite of programs, which are defined [here](../software_setup/README.md)
 
 All computers have a general `student` account, where all lab members have access. 
-Please share all your personal files and data on our shared U:Share drive.
+Please store all your personal files and data on our U:Share drive.
 This allows you to access your files from any of the shared computers.
 
 Additionally, there is a single (!) Windows machine that is exclusively used for interaction with other IT infrastructure (e.g. printing, scanning).

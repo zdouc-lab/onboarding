@@ -1,7 +1,7 @@
 # Zdouc Lab Onboarding Repository
 
-The repository is home to the onboarding information for the [Zdouc Lab](https://zdouc-lab.github.io/zdouc-lab-website/) at the University of Vienna.
-**See [`onboarding.md`](onboarding/onboarding.md)** for the onboarding information.
+This repository is home to the onboarding information for the [Zdouc Lab](https://zdouc-lab.github.io/zdouc-lab-website/) at the University of Vienna.
+See **[Onboarding](onboarding/onboarding.md)** for the onboarding information.
 
 ## How to navigate this repo
 

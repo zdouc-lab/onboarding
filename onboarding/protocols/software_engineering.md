@@ -19,9 +19,9 @@ This document is structured as follows:
 
 ## Clean Code
 
-Writing code is not difficult - even machines (GenAI) are doing it reasonably well.
+Writing functioning code is not difficult - even machines (GenAI) are doing it reasonably well.
 The actual challenge lies in writing code that is readable, structured, concise, and scales well with increasing complexity.
-Code should be written in a way that it can be effortlessy picked up by any reasonably experienced programmer, due to its adherence to conventions and patterns.
+Code should be written in a way that it can be effortlessly picked up by any reasonably experienced programmer, due to its adherence to conventions and patterns.
 
 Writing good code is like building a house: if the foundation is not crafted well, there is going to be a lot of technical debt to pay in the long run.
 
@@ -75,7 +75,7 @@ By following a few principles and best practices can lead to a pleasant and frus
 *Nota bene: this workflow assumes that a GitHub repository already exists.*
 
 The use of branches and version control in general is an essential part of distributed development. 
-It allows to separate ‘prodution’ code (the main branch, code that is tested and running) from 'development' code (feature branches, experimental code). 
+It allows to separate ‘production’ code (the main branch, code that is tested and running) from 'development' code (feature branches, experimental code). 
 Keep in mind that version control does not replace communication - make sure to talk early and often to prevent merge conflicts (two branches that change the same code in main). 
 Below are the steps necessary to create and manage branches.
 
