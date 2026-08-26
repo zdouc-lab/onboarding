@@ -4,12 +4,14 @@
 
 *Nota bene: this is a living document and will change with time. Make sure to return regularly.*
 
+*Nota bene: this document assumes that you are affiliated with the University of Vienna. For people with other affiliations, not all points may be applicable - feel free to discuss with Mitja.*
+
 ## Table of contents
 
 - [Mission Statement](#mission-statement)
 - [Expectations](#expectations)
-- [Meetings](#meetings)
 - [Infrastructure](#infrastructure)
+- [Meetings](#meetings)
 - [Additional Resources](#additional-resources)
 - [Closing](#closing)
 - [Credits](#credits)
@@ -20,7 +22,7 @@
 THe core purpose of the Zdouc Lab is the discovery of novel microbial natural products, usable as drugs, agrochemicals, and food additives.
 The pillars of our activities are:
 
-- Innovating the representation and interconnection of natural product research data, e.g. by building databases, furthering linked open data, and investing in biocuration.
+- Innovating knowledge representation and interconnection of natural product research data, e.g. by building databases, furthering linked open data, and investing in biocuration.
 - Building software tools and workflows to support human researchers in data analysis and prioritization, e.g. by training machine learning algorithms.
 - Bridging hypothesis and experiment by biological validation, using e.g. molecular biology and investigating biosynthesis, aiming to deliver tangible results.
 
@@ -33,7 +35,7 @@ Members of the Zdouc Lab pledge to:
 - Document their research appropriately and disseminate results widely, following the principle "as open as possible, as closed as necessary".
 - Act responsibly and transparently, striving towards lasting and impactful results.
 
-To reach these goals, members of the Zdouc lab:
+To reach these goals, members of the Zdouc Lab:
 
 - Interact kindly with colleagues and external collaborators and stand against any form of discrimination, as laid out in the [Zdouc Lab Code of Conduct](https://github.com/zdouc-lab/.github/blob/main/CODE_OF_CONDUCT.md).
 - Follow the [University of Vienna's Code of Conduct](https://www.univie.ac.at/en/about-us/legal-information-and-notices/code-of-conduct) in general and specifically regarding [Good Academic Practice](https://www.univie.ac.at/en/about-us/good-academic-practice).
@@ -68,6 +70,7 @@ You acknowledge that you will:
 - Take responsibility for any infrastructure made available to you.
 - See problems as challenges that allow you to grow. You will try to solve issues independently, but reach out for help after a reasonable effort has not led to success.
 - Be aware of your project plan, adhere to deadlines for deliverables, specifically when they affect external opportunities (e.g. collaborations, conferences).
+- Document your work by keeping a lab notebook you update regularly (at least weekly)
 - Be mindful that interaction with external opportunities reflect on the entire lab, and make your best effort in furthering its reputation.
 
 ### Mitja's role
@@ -91,7 +94,7 @@ Lab members are expected to adhere to the Codes of Conduct laid out in the [Miss
 We expect lab members to follow these guidelines at any lab-related event.
 
 If you are being harassed or notice that someone else is being harassed, or have any other concern, please contact Mitja Zdouc as soon as possible.
-Please be aware that Mitja has a "duty of care" ("Fürsorgepflicht"), meaning that he must act on your behalf in reporting the issue to the responsible official.
+Please be aware that Mitja has a "duty of care" ("Fürsorgepflicht" in German), meaning that he must act on your behalf in reporting the issue to the responsible official.
 For a confident counseling, please contact the office of the [Beratungsstelle](https://gleichstellung.univie.ac.at/praevention-beratung/beratungsstelle) before you confer with Mitja.
 
 If Mitja is the cause of your concern, [Prof. Iris Stappen](https://ufind.univie.ac.at/de/person.html?id=7003) as member of the [AKGleich](https://gleichbehandlung.univie.ac.at/) has agreed to mediate as a neutral third person.
@@ -122,53 +125,6 @@ Role-specific expectations and guidelines can be found in the following document
 - Expectations for PhD Students (TBA)
 - Expectations for Postdocs (TBA)
 
-## Meetings
-
-*Nota bene: you can always drop Mitja a message on [Element](#communication), and he will come back to you as soon as possible (faster than email).*
-
-While the Zdouc Lab tries to informally interact on a daily basis, it is beneficial to have structured regular meetings for information exchange. 
-The Zdouc Lab employs several meeting formats:
-
-### Lab Meetings
-
-Lab meetings are scheduled for up to two hours once a month. 
-All Zdouc Lab members are expected to attend, ideally in person. 
-Online participation is possible but needs to be discussed with Mitja.
-One team member will take minutes to be circulated within the group.
-Lab meetings are structured in two parts:
-
-- **Round of updates**: A quick round of updates by the lab members, with 3-minute pitches. Mitja will share a Google Slides document where you will prepare a single slide summarizing your activities since the last lab meeting. This can include:
-  - A new figure or results
-  - Issues you have encountered
-  - Interesting concept you have learned about. 
-- **Topic**: A dedicated session where a previously scheduled topic will be presented. In advance, Mitja will ask individual members to contribute. Topics are:
-  - Braintrust: One team member presents their own research/project to the group, focusing on open questions or challenges of their work. Occasionally, a new talk or set of slides is presented. This is a way for the group to get familiar witch each other's work, get feedback, advice, or help. Presenters should aim for 20 minutes of talking, with the rest of time open for discussion.
-  - Tech Talk/Discussion: Talks on commonly used tech in the labs, or strategies for staying on top of the literature, organization, etc.
-  - Journal Club:  Presentation to be given by meeting leader followed by group discussion. The meeting leader should aim to send the chosen paper one week before the scheduled meeting, and lab members are expected to be familiar with the content for discussion.
-  - Big ideas or Projects: A format for senior members practice for manuscript/grant application writing or talks/interviews while helping newer members see where the boundaries of fields are.
-
-### Individual Meetings
-
-Regular individual meetings are scheduled depending on your expected scientific independence and usually last half an hour:
-
-- Master's students: weekly meetings
-- PhD students: every two weeks
-- Postdocs: monthly meetings
-
-Once you join the lab, contact Mitja to set up a time.
-The meetings are expected to follow a certain format, with you preparing a short slide deck to lead the discussion (see also [this](https://ctl.univie.ac.at/fileadmin/user_upload/z_ctl_neu/Angebote_fuer_Studierende/Handouts__Leitfaeden_und_Ressourcen/Handouts_und_Leitfaeden/HO_Betreuungsgespraech_Vorbereitung_fuer_Studierende_final.pdf) and [this](https://ctl.univie.ac.at/fileadmin/user_upload/z_ctl_neu/Angebote_fuer_Studierende/Handouts__Leitfaeden_und_Ressourcen/Handouts_und_Leitfaeden/HO_Betreuungsgespraech_Dokumentation_final.pdf) handout for additional information):
-
-- A refresher slide on the topic.
-- Your progress since the last 1:1 meeting.
-- Any challenges or roadblocks you have run into, strategic discussion about the project(s).
-- Your current progress in reaching the project and educational goals.
-- Your plan for the next steps and proposal of date and time for the next meeting.
-
-### Walk-in hours
-
-Mitja reserves time for informal discussion, questions, etc. during his walk-in hours, which can be found [here](https://ufind.univie.ac.at/de/person.html?id=1021853).
-Students asking questions about teaching have priority, but anyone of them team can feel free to drop by.
-
 ## Infrastructure
 
 The Zdouc Lab provides guidelines regarding the infrastructure it makes available and uses. 
@@ -180,6 +136,13 @@ As always, special accommodations need to be discussed with and agreed upon by M
 The Zdouc lab primarily communicates internally via the [Element](https://app.element.io/#/register) client, with [Matrix.org](https://matrix.org/) as the server.
 You are expected to register an account and connect to the `Zdouc-Lab` space. 
 Ask Mitja to add you to the group space.
+
+### Lab notebook
+
+As a member of the Zdouc Lab, you are expected to keep a lab notebook. 
+Regular updates allow you to keep track of your progress and allow to reproduce your work.
+
+Please follow [these instructions](./protocols/lab-notebook.md) to create a lab notebook repository in the Zdouc Lab GitHub Organization.
 
 ### Research data management
 
@@ -208,8 +171,22 @@ Nonetheless, there are several options that can be considered to **temporarily**
 - Storing data on your thumb drive or external hard drive.
 - Storing large artifacts (=derived data) that can be easily generated. In this case, document and store the script instead.
 
+### IT infrastructure
 
-### Licensing
+The Zdouc Lab provides IT infrastructure to its members. 
+This includes several desktop computers.
+
+Our operating system of choice is (Ubuntu) Linux, for educational, ethical, and practical purposes.
+The computers provided by the Zdouc Lab all run on Ubuntu Linux, and we encourage our members to adopt Linux and other [free open source software](extras/windows_alternatives.md) for their work.
+All computers have an identical suite of programs, which are defined [here](../software_setup/README.md)
+
+All computers have a general `student` account, where all lab members have access. 
+Please share all your personal files and data on our shared U:Share drive.
+This allows you to access your files from any of the shared computers.
+
+Additionally, there is a single (!) Windows machine that is exclusively used for interaction with other IT infrastructure (e.g. printing, scanning).
+
+### Licenses
 
 We release as many research outputs as possible under permissive [open licenses](https://opensource.org/license/mit).
 This ensures lab research is reusable and reproducible, with minimal legal barriers:
@@ -223,28 +200,54 @@ If in doubt, feel free to discuss with Mitja.
 
 ### Computer source code
 
-The Zdouc lab keeps source code in its [GitHub Organization](https://github.com/zdouc-lab).
+The Zdouc Lab keeps source code in its [GitHub Organization](https://github.com/zdouc-lab).
 If your project entails computational work, you are expected to create a GitHub account and request membership with the [Zdouc Lab GitHub Organization](https://github.com/zdouc-lab).
 All code repositories must be owned by the Zdouc Lab GitHub Organization to guarantee long-term maintenance.
 By default, repositories should be public, and private repositories must be discussed with Mitja first.
 Please adhere to [our good coding practices](./protocols/software_engineering.md), e.g. by first taking a look at our [modern python](https://github.com/zdouc-lab/modern_python) repository.
 For advice on how to organize your code, feel free to discuss with Mitja.
 
-### Computer infrastructure
+## Meetings
 
-**See [this document](extras/windows_alternatives.md) for replacing Windows-programs with free (open source) alternatives**
+*Nota bene: you can always drop Mitja a message on [Element](#communication), and he will come back to you as soon as possible (faster than email).*
 
-The Zdouc Lab provides IT infrastructure to its members.
-We are a Linux-only lab, for educational, ethical, and practical purposes.
-Our operating system of choice is Ubuntu Linux, and you are expected to make an effort in adopting it for your work.
+While the Zdouc Lab tries to informally interact on a daily basis, it is beneficial to have structured regular meetings for information exchange. 
+The Zdouc Lab employs several meeting formats:
 
-Several desktop computers for general use are available. A user account for general use is set up, where all lab members have access.
-Personal accounts can be set up upon request
+### Lab Meetings
 
-You can also bring your own machine, provided that you can run a Linux- or Linux-like system (e.g. MacOS) on it. Mitja can help you with setting up Linux on your computer. 
+Lab meetings are scheduled for up to two hours once a month. 
+All Zdouc Lab members are expected to attend, ideally in person. 
+Online participation is possible but needs to be discussed with Mitja.
+One team member will take minutes to be circulated within the group.
+Lab meetings are structured in two parts:
 
-Additionally, there is a single (!) Windows machine that is exclusively used for interaction with other IT infrastructure (e.g. printing, scanning).
-This machine is not intended for work.
+- **Round of updates**: A quick round of updates by the lab members, with 3-minute pitches. Mitja will share a Google Slides document where you will prepare a single slide summarizing your activities since the last lab meeting. This can include:
+  - A new figure or results.
+  - Issues you have encountered.
+  - Interesting concepts you have learned about.
+- **Topic**: A dedicated session where a previously scheduled topic will be presented. In advance, Mitja will ask individual members to contribute. Topics are:
+  - Braintrust: One team member presents their own research/project to the group, focusing on open questions or challenges of their work. Occasionally, a new talk or set of slides is presented. This is a way for the group to get familiar witch each other's work, get feedback, advice, or help. Presenters should aim for 20 minutes of talking, with the rest of time open for discussion.
+  - Tech Talk/Discussion: Talks on commonly used tech in the labs, or strategies for staying on top of the literature, organization, etc.
+  - Journal Club:  Presentation to be given by meeting leader followed by group discussion. The meeting leader should aim to send the chosen paper one week before the scheduled meeting, and lab members are expected to be familiar with the content for discussion.
+  - Big ideas or Projects: A format for senior members practice for manuscript/grant application writing or talks/interviews while helping newer members see where the boundaries of fields are.
+
+### Individual Meetings
+
+Regular individual meetings are scheduled depending on your expected scientific independence and usually last half an hour:
+
+- Master's students: weekly meetings
+- PhD students: every two weeks
+- Postdocs: monthly meetings
+
+Once you join the lab, contact Mitja to set up a time.
+The meetings are expected to follow a certain format, with you preparing a short slide deck to lead the discussion (see also [this](https://ctl.univie.ac.at/fileadmin/user_upload/z_ctl_neu/Angebote_fuer_Studierende/Handouts__Leitfaeden_und_Ressourcen/Handouts_und_Leitfaeden/HO_Betreuungsgespraech_Vorbereitung_fuer_Studierende_final.pdf) and [this](https://ctl.univie.ac.at/fileadmin/user_upload/z_ctl_neu/Angebote_fuer_Studierende/Handouts__Leitfaeden_und_Ressourcen/Handouts_und_Leitfaeden/HO_Betreuungsgespraech_Dokumentation_final.pdf) handout for additional information):
+
+- A refresher slide on the topic.
+- Your progress since the last 1:1 meeting.
+- Any challenges or roadblocks you have run into, strategic discussion about the project(s).
+- Your current progress in reaching the project and educational goals.
+- Your plan for the next steps and proposal of date and time for the next meeting.
 
 ## Additional resources
 

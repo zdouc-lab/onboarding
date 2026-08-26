@@ -1,10 +1,18 @@
-# Instructions
+# Overview
+
+The computers available in the Zdouc Lab come with a pre-installed set of [programs](setup_script.sh).
+
+These can be accessed by logging in with the `student` account
+
+
+## For admins
 
 *Nota bene: assumes a fresh Ubuntu install*
 
-## Installation
+### Step-by-step install instructions
 
-- Login, create new user `student`, set password. Do not give sudo rights.
+
+- Login with admin account, create new user `student`, set password. Do not give sudo rights.
 
 - Download and run the installer script
 ```commandline
@@ -13,12 +21,5 @@ chmod +x ./setup_script.sh
 sudo ./setup_script.sh
 ```
 
-- Via the newly installed JetBrains Toolbox, install Pycharm (Community Version)
-- Via the newly installed Docker Desktop, install MITE and FERMO offline
-
-
-## Configuration
-
-- [ ] Create a GitHub account and try to clone [modern_python](https://github.com/zdouc-group/modern_python) to your machine, using Pycharm
-- [ ] Setup Obsidian lab notebook
-- [ ] Setup Element/Matrix.org
+- Via docker, install MITE and FERMO offline
+- Verify that the `student` account is in the sudoers file and that it can run docker programs
