@@ -15,7 +15,7 @@ See **[Onboarding](onboarding/onboarding.md)** for the onboarding information.
 | Name                                                                       | Description                                                   |
 |----------------------------------------------------------------------------|---------------------------------------------------------------|
 | [Onboarding](onboarding/onboarding.md)                                     | Step-by-step onboarding document                              |
-| [Master student onboarding](onboarding/extras/links_internal_docs.md)      | Step-by-step onboarding document for master students          |
+| [Master student onboarding](onboarding/extras/master-students.md)      | Step-by-step onboarding document for master students          |
 | [Data management plan template](onboarding/extras/data_management_plan.md) | A template for the data management plan                       |
 | [Windows alternatives](onboarding/protocols/windows_alternatives.md)          | List of programs to substitute Windows-only programs          |
 | [Software Engineering](onboarding/protocols/software_engineering.md)       | Best practices for software engineering used in the Zdouc Lab |
