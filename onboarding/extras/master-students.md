@@ -30,7 +30,7 @@ It is structured to be followed from top to bottom.
 - Created a personal [lab notebook](../protocols/lab-notebook.md)
 - Registered for the Master student seminar (only for University of Vienna students).
 - Registered for the Master student journal club (only for University of Vienna students).
-- Received a guided tour through the lab.
+- Received a guided tour through the lab; was introduced to other PIs and lab manager.
 - Received a personal folder in the office.
 - Was asked for approval to be featured on the [Zdouc Lab website](https://zdouclab.org/team/).
 
