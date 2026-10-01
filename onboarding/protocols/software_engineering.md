@@ -1,4 +1,4 @@
-# Zdouc Laboratory Master Student Onboarding Information
+# Software engineering onboarding information
 
 <img src="https://github.com/zdouc-lab/.github/raw/main/profile/zdouc_logo_v1.svg" style="width: 25vw"/>
 
@@ -25,7 +25,7 @@ Code should be written in a way that it can be effortlessly picked up by any rea
 
 Writing good code is like building a house: if the foundation is not crafted well, there is going to be a lot of technical debt to pay in the long run.
 
-People have come up with concepts such as [Clean Code](https://en.wikipedia.org/wiki/Robert_C._Martin#Clean_Code) or [Sofware Craftmanship](https://en.wikipedia.org/wiki/Software_craftsmanship) that relates coding to practicing a craft, such as being a carpenter.
+People have come up with concepts such as [Clean Code](https://en.wikipedia.org/wiki/Robert_C._Martin#Clean_Code) or [Software Craftmanship](https://en.wikipedia.org/wiki/Software_craftsmanship) that relates coding to practicing a craft, such as being a carpenter.
 Code written following such principles should be well-written, maintainable, and clean - in short, something to be proud of.
 
 Software created by the Zdouc Lab should follow such principles - not only due to professional pride, but also due to ease of maintenance.
