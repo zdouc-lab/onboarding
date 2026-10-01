@@ -33,17 +33,32 @@ This protocol/tutorial focuses on established, rule-based tools, which are good 
 
 ### antiSMASH
 
+The most commonly used genome mining tool.
+AntiSMASH uses a set of pre-established rules to determine the "core regions" of biosynthetic gene clusters (BGCs).
+Additional tools and comparison against databases such as MIBiG and MITE allow annotation of BGCs.
+
 #### Installation
 
-TBA
+*Nota bene: assumes that `.local/bin` is in `$PATH`*
+
+```commandline
+curl -q https://dl.secondarymetabolites.org/releases/latest/docker-run_antismash-full > ~/.local/bin/run_antismash
+chmod a+x ~/.local/bin/run_antismash
+```
 
 #### Running the tool
 
-TBA
+To run the tool, provide an input file and an output directory
 
-#### Interpreting the output
+```commandline
+run_antismash <input file> <output directory> [antismash options]
+```
 
-TBA
+TODO MMZ 1.10.26: specify "full" antismash options including MITE and MIBiG annotations
+
+#### Read the output
+
+Each antiSMASH output folder contains a index.html which can be opened in any browser to inspect the results.
 
 ### BiG-SCAPE
 
@@ -65,19 +80,14 @@ After sequencing, assembly, and annotation, genomes are usually deposited on one
 The most important repository for bioinformatics is the NCBI database, which provides a rich source of genomic data.
 However, due to historic reasons, it is not trivial to navigate the database and make sense of the different identifiers and concepts.
 
-Here, we describe a simple workflow to get access to a (antiSMASH-compatible) genome in GenBank format. For details on identifiers, records, and NCBI in general, see [the database section](#primer-on-databases-and-identifiers)
-
-### Installation
-
-For single genomes, download can be performed via the website graphical user interface. 
-For multiple entries, we should use a command line tool.
-
+Here, we describe a simple workflow to get access to a (antiSMASH-compatible) genome in GenBank format. 
+For details on identifiers, records, and NCBI in general, see [the database section](#primer-on-databases-and-identifiers)
 
 ### Genome assemblies (GCA): workflow using GUI
 
 - If starting from Bioproject (i.e. the research project, identifier starting with `PRJNA`), identify the assembly accession ID. Usually, it starts with `GCA_...`. Click on the ID, which will direct you to the record page.
 - On the assembly page, navigate to `Download`, select `GenBank only`, and select `Sequence and annotation (GBFF)`. Download to disk.
-- Unpack the file and naviage to the folder containing the `.gbff` file. This file can be used with antiSMASH.
+- Unpack the file and navigate to the folder containing the `.gbff` file. This file can be used with antiSMASH.
 
 ### Genome assemblies (GCA): workflow using CLI
 
@@ -107,8 +117,30 @@ mkdir gbffs
 for d in genomes/ncbi_dataset/data/GCA_*/; do acc=$(basename "$d"); cp "$d/genomic.gbff" "gbffs/${acc}.gbk"; done
 ```
 
+### Genbank or RefSeq records via GUI
 
+Genomes can also be available as Genbank or RefSeq records (for details, see below).
+Let assume we want to download the *Streptomyces coelicolor* genome sequence with the RefSeq ID `NC_003888.3`.
 
+- On NCBI, search for [NC_003888.3](https://www.ncbi.nlm.nih.gov/nuccore/NC_003888.3)
+- On the right-hand side, slick on the `Send to:` drop-down menu and under `Choose Destination` select `File`
+- Download the file by clicking on `Create File`
+
+### Genbank or RefSeq records via CLI
+
+*Nota bene: assumes that the `uv` tool is installed*
+
+For downloading multiple files, install the [ncbi-acc-download](https://github.com/kblin/ncbi-acc-download) tool
+
+```commandline
+uv tool install ncbi-acc-download
+```
+
+Then run the download
+
+```commandline
+ncbi-acc-download NC_003888.3
+```
 
 ## Primer on databases and identifiers
 
