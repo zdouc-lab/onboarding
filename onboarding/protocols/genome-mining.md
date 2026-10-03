@@ -37,6 +37,9 @@ The most commonly used genome mining tool.
 AntiSMASH uses a set of pre-established rules to determine the "core regions" of biosynthetic gene clusters (BGCs).
 Additional tools and comparison against databases such as MIBiG and MITE allow annotation of BGCs.
 
+For single jobs, antiSMASH's web instance can be conveniently used. 
+To run multiple files at once, see the local installing and running instructions below.
+
 #### Installation
 
 *Nota bene: assumes that `.local/bin` is in `$PATH`*
@@ -48,19 +51,39 @@ chmod a+x ~/.local/bin/run_antismash
 
 #### Running the tool
 
-To run the tool, provide an input file and an output directory
+To run the tool, provide an input file and an output directory.
+The command below contains all options to run a "full" analysis
 
 ```commandline
-run_antismash <input file> <output directory> [antismash options]
+run_antismash GCA_026625765.1.gbk antismash/ -c 4 -v -t bacteria --fullhmmer --clusterhmmer --genefunctions-mite-version latest \ 
+--tigrfam --asf --cc-mibig --cb-general --cb-subclusters --cb-knownclusters --pfam2go --rre --smcog-trees
 ```
 
-TODO MMZ 1.10.26: specify "full" antismash options including MITE and MIBiG annotations
+antiSMASH can also be run on multiple files in parallel (adjust the number of cocurrent jobs and cores per job on availability of computer)
+
+```commandline
+parallel -j JOBS 'run_antismash {} antismash/{/.} -c CORES -v -t bacteria --fullhmmer --clusterhmmer --genefunctions-mite-version latest \
+ --tigrfam --asf --cc-mibig --cb-general --cb-subclusters --cb-knownclusters --pfam2go --rre --smcog-trees' ::: *.gbk
+```
+
+#### Debugging
+
+AntiSMASH will indicate the outcome of the analysis in the logs. 
+For genbank files with no previously performed gene finding, antiSMASH will fail. 
+In these cases, the additional option `--genefinding-tool prodigal` is required, which will first run gene detection on the genomes.
 
 #### Read the output
 
 Each antiSMASH output folder contains a index.html which can be opened in any browser to inspect the results.
 
 ### BiG-SCAPE
+
+BiG-SCAPE allows to compare antiSMASH results from multiple genomes. 
+It does so by comparing the motifs detected across genes container in BGCs, and clustering them based on their similarity.
+The resulting network can be compared to a sequence similarity network. 
+Further annotations by e.g. MIBiG allow to make assumption on the similarity of BGCs in a dataset and in comparison to external sources.
+
+BiG-SCAPE is currently only available as a local installation (CLI with offline GUI).
 
 #### Installation
 
