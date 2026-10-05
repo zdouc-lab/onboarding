@@ -14,8 +14,6 @@ This document is structured as follows:
 - [Introduction](#introduction)
 - [Important tools and how to install them]()
 - [How to get genomes]()
-- [Primer on databases and identifiers]()
-- [Pitfalls and FAQs]()
 
 ## Introduction
 
@@ -79,7 +77,7 @@ Each antiSMASH output folder contains a index.html which can be opened in any br
 ### BiG-SCAPE
 
 BiG-SCAPE allows to compare antiSMASH results from multiple genomes. 
-It does so by comparing the motifs detected across genes container in BGCs, and clustering them based on their similarity.
+It does so by comparing the enzyme motifs detected across genes container in BGCs, and clustering them based on their similarity.
 The resulting network can be compared to a sequence similarity network. 
 Further annotations by e.g. MIBiG allow to make assumption on the similarity of BGCs in a dataset and in comparison to external sources.
 
@@ -87,15 +85,49 @@ BiG-SCAPE is currently only available as a local installation (CLI with offline 
 
 #### Installation
 
-TBA
+BiG-SCAPE v2 can be installed to the local machine using mamba.
 
-#### Running the tool
+Mamba can be installed with the following commands:
 
-TBA
+```commandline
+"${SHELL}" <(curl -L micro.mamba.pm)
+source ~/.bashrc
+```
+
+BIG-SCAPE is then installed using:
+
+```commandline
+git clone https://github.com/medema-group/BiG-SCAPE
+cd BiG-SCAPE
+mamba env create -f environment.yml
+mamba activate bigscape
+pip install .
+```
+
+#### Running
+
+BiG-SCAPE runs on previously created antiSMASH jobs (here, the `input/` directory) and writes its output in an output directory (here, `output`).
+
+As prerequisite, a reference HMM library is needed and must be downloaded - usually, this is [PFAM](https://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz). 
+Unpack and place it next to the `input/` and `output/` folders.
+
+Run BiG-SCAPE with the following commands:
+
+```
+bigscape cluster -i input/ --input-mode recursive -o output/ -p Pfam-A.hmm --mibig-version 4.0 --include-singletons --gcf-cutoffs 0.3,0.5,0.7
+```
+
+With these settings, all antiSMASH-detected BGCs will be detected in all directories of the `input/` directory and annotated using the PFAM database
+Gene cluster families will be calculated using different cutoff values (`--gcf-cutoffs 0.3,0.5,0.7`) and compared to the MIBiG database.
+Singletons will be included.
 
 #### Interpreting the output
 
-TBA
+To inspect the BiG-SCAPE results, open the `index.html` file in any browser, and load the database file that was generated during the run.
+
+These results can be used to compare e.g. the occurrence pattern of detected metabolites with the occurrence pattern of BGCs in strain genomes.
+
+More information can be found in the [BiG-SCAPE Wiki](https://github.com/medema-group/BiG-SCAPE/wiki)
 
 ## How to get genomes 
 
@@ -166,5 +198,9 @@ ncbi-acc-download NC_003888.3
 ```
 
 ## Primer on databases and identifiers
+
+TBA
+
+## Pitfalls and FAQs
 
 TBA
